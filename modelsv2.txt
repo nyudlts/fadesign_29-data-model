@@ -33,7 +33,7 @@ change
     item                string
 
 creation
-    chardata
+    cdata
     date                string
 
 dsc                                         desc. Subord. components
@@ -65,7 +65,7 @@ eadid
     @countrycode        string              ISO 3166-1 code for the country of the maintenance agency
     @mainagencycode     string              ISO 15511 code for the institution that maintains the finding aid
     @url                string              absolute or relative address of the finding aid
-    chardata
+    cdata
 
 filedesc
     notestmt            note
@@ -101,7 +101,7 @@ titlestmt
     author              string
 
 titleproper
-    chardata
+    cdata
     num                 string
 
 
