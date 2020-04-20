@@ -1,0 +1,63 @@
+This document outlines data structures in EAD XML based on the ACM minimum Requirements for Arrangement and Description Records in: https://docs.google.com/document/d/1z8hpJzzUDfnLH4VJvJQ5OMeq6OmoCNnGAnK5EPAQJfY/edit
+
+Note: this does not include xml attributes (v2), or instances (containers, digital objects) (v3)
+
+tag                     type                translation
+archdesc                                    archival description
+    acqinfo             eadnote             source of acquisition
+    did                 did                 descriptive identifier
+    dsc                 dsc                 desc. Subord. components
+    scopecontent        eadnote             scope and content
+    bioghist            eadnote             biog. And historical
+    accessrestrict      eadnote             access restriction
+    userrestrict        eadnote             use restriction
+    prefercite          eadnote             preferred citation
+    processinfo         eadnote             processing information
+    arrangement         eadnote             arrangement note
+    controlaccess       controlaccess       control access terms
+    c                   c                   component
+    acqinfo             note
+
+c
+    did                 did
+    Scopecontent        eadnote             scope and content
+    bioghist            eadnote             biog. And historical
+    accessrestrict      eadnote             access restriction
+    userrestrict        eadnote             use restriction
+    prefcite            eadnote             preferred citation
+    processinfo         eadnote             processing information
+    arrangement         eadnote             arrangement note
+    dsc                 dsc                 desc. Subord. components
+
+dsc                                         desc. Subord. components
+    c                   c
+
+
+did
+    abstract            string
+    langmaterial        string
+    origination         origination
+    physdesc            physdesc
+    physloc             string
+    repository          repository
+    unittitle           string
+    unitid              string
+    unitdate            string
+
+origination
+    Personame           string
+
+physdesc
+    Extent              string
+
+repository
+    corpname            string
+
+eadnote
+    head                string
+    p                   string
+    emph
+
+*note eadnote is not a qualified ead tag, I have added it here to provide a model for various note fields that consist of a header and formatted text. I also need to investigate
+
+
