@@ -1,7 +1,3 @@
-This document outlines data structures in EAD XML based on the ACM minimum Requirements for Arrangement and Description Records in: https://docs.google.com/document/d/1z8hpJzzUDfnLH4VJvJQ5OMeq6OmoCNnGAnK5EPAQJfY/edit
-
-Note: this does not include xml attributes (v2), or instances (containers, digital objects) (v3)
-
 tag                     type                translation
 ----------------------  ------------------  ----------------------------------------------------
 addressline             string
@@ -19,7 +15,7 @@ archdesc                                    archival description
     arrangement         eadnote             arrangement note
     controlaccess       controlaccess       control access terms
     c                   c                   component
-    acqinfo             note
+    acqinfo             eadnote
 
 c
     did                 did
@@ -32,13 +28,16 @@ c
     arrangement         eadnote             arrangement note
     dsc                 dsc                 desc. Subord. components
 
+change
+    date                string
+    item                string
+
 creation
     chardata
     date                string
 
 dsc                                         desc. Subord. components
     c                   c
-
 
 did
     abstract            string
@@ -58,14 +57,23 @@ ead
 eadheader
     eadid               eadid               ead identifier
     filedesc            filedesc            file description
-    publicationstmt     publicationstmt     publication statment
+    publicationstmt     publicationstmt     publication statement
+    profiledesc         profiledesc         profile description
+    revisiondesc        revisiondesc        revision description
 
 eadid
-    @mainagencycode     string
+    @countrycode        string              ISO 3166-1 code for the country of the maintenance agency
+    @mainagencycode     string              ISO 15511 code for the institution that maintains the finding aid
+    @url                string              absolute or relative address of the finding aid
     chardata
 
 filedesc
+    notestmt            note
+    publicationstmt     publicationstmt
     titlestmt           titlestmnt
+
+note
+    p                   string              paragraph
 
 origination
     personame           string
@@ -85,6 +93,9 @@ publicationstmt
 repository
     corpname            string
 
+revisiondesc
+    change              change
+
 titlestmt
     titleproper         titleproper
     author              string
@@ -94,7 +105,7 @@ titleproper
     num                 string
 
 
------
+------------------------------------------------------------------
 eadnote
     head                string
     p                   string
