@@ -1,0 +1,116 @@
+tag                     type                translation
+----------------------  ------------------  ----------------------------------------------------
+addressline             string
+
+archdesc                                    archival description
+    acqinfo             eadnote             source of acquisition
+    did                 did                 descriptive identifier
+    dsc                 dsc                 desc. Subord. components
+    scopecontent        eadnote             scope and content
+    bioghist            eadnote             biog. And historical
+    accessrestrict      eadnote             access restriction
+    userrestrict        eadnote             use restriction
+    prefercite          eadnote             preferred citation
+    processinfo         eadnote             processing information
+    arrangement         eadnote             arrangement note
+    controlaccess       controlaccess       control access terms
+    c                   c                   component
+    acqinfo             eadnote
+
+c
+    did                 did
+    scopecontent        eadnote             scope and content
+    bioghist            eadnote             biog. And historical
+    accessrestrict      eadnote             access restriction
+    userrestrict        eadnote             use restriction
+    prefcite            eadnote             preferred citation
+    processinfo         eadnote             processing information
+    arrangement         eadnote             arrangement note
+    dsc                 dsc                 desc. Subord. components
+
+change
+    date                string
+    item                string
+
+creation
+    cdata
+    date                string
+
+dsc                                         desc. Subord. components
+    c                   c
+
+did
+    abstract            string
+    langmaterial        string
+    origination         origination
+    physdesc            physdesc
+    physloc             string
+    repository          repository
+    unittitle           string
+    unitid              string
+    unitdate            string
+
+ead
+    eadheader           eadheader
+    archdesc            archdesc
+
+eadheader
+    eadid               eadid               ead identifier
+    filedesc            filedesc            file description
+    publicationstmt     publicationstmt     publication statement
+    profiledesc         profiledesc         profile description
+    revisiondesc        revisiondesc        revision description
+
+eadid
+    @countrycode        string              ISO 3166-1 code for the country of the maintenance agency
+    @mainagencycode     string              ISO 15511 code for the institution that maintains the finding aid
+    @url                string              absolute or relative address of the finding aid
+    cdata
+
+filedesc
+    notestmt            note
+    publicationstmt     publicationstmt
+    titlestmt           titlestmnt
+
+note
+    p                   string              paragraph
+
+origination
+    personame           string
+
+physdesc
+    extent              string
+
+profiledesc
+    creation            creation
+    langusage           string
+    descrules           string
+
+publicationstmt
+    publisher           string
+    address             []addressline
+
+repository
+    corpname            string
+
+revisiondesc
+    change              change
+
+titlestmt
+    titleproper         titleproper
+    author              string
+
+titleproper
+    cdata
+    num                 string
+
+
+------------------------------------------------------------------
+eadnote
+    head                string
+    p                   string
+    emph
+
+*note eadnote is not a qualified ead tag, I have added it here to provide a model for various note fields that consist of a header and formatted text. I also need to investigate
+
+
