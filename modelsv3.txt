@@ -1,31 +1,41 @@
-tag                     type                translation
-----------------------  ------------------  ----------------------------------------------------
-addressline             string
+EAD models V3.
 
-archdesc                                    archival description
-    acqinfo             eadnote             source of acquisition
-    did                 did                 descriptive identifier
-    dsc                 dsc                 desc. Subord. components
-    scopecontent        eadnote             scope and content
-    bioghist            eadnote             biog. And historical
-    accessrestrict      eadnote             access restriction
-    userrestrict        eadnote             use restriction
-    prefercite          eadnote             preferred citation
-    processinfo         eadnote             processing information
-    arrangement         eadnote             arrangement note
-    controlaccess       controlaccess       control access terms
-    c                   c                   component
-    acqinfo             eadnote
+tag                     type                Repatable       translation                             note
+----------------------  ------------------  ---------       -------------------     ------------------------------
+abstract
+    @id                 string                                                      this might not be needed, tbd.
+    @label              string
+    cdata
+    emph
+
+addressline
+    cdata
+
+archdesc                                                    archival description
+    @level              string
+    acqinfo             formattednote                       source of acquisition
+    did                 did                     descriptive identifier
+    dsc                 dsc                     desc. Subord. components
+    scopecontent        formattednote           scope and content
+    bioghist            formattednote           biog. And historical
+    accessrestrict      formattednote           access restriction
+    userestrict         formattednote           use restriction
+    prefercite          formattednote           preferred citation
+    processinfo         formattednote           processing information
+    arrangement         formattednote           arrangement note
+    controlaccess       controlaccess           control access terms
+    c                   c                       component
+    acqinfo             formattednote           acquisition information
 
 c
     did                 did
-    scopecontent        eadnote             scope and content
-    bioghist            eadnote             biog. And historical
-    accessrestrict      eadnote             access restriction
-    userrestrict        eadnote             use restriction
-    prefcite            eadnote             preferred citation
-    processinfo         eadnote             processing information
-    arrangement         eadnote             arrangement note
+    scopecontent        formattednote             scope and content
+    bioghist            formattednote             biog. And historical
+    accessrestrict      formattednote             access restriction
+    userrestrict        formattednote             use restriction
+    prefcite            formattednote             preferred citation
+    processinfo         formattednote             processing information
+    arrangement         formattednote             arrangement note
     dsc                 dsc                 desc. Subord. components
 
 change
@@ -36,19 +46,25 @@ creation
     cdata
     date                string
 
+controlaccess
+    persname            string
+    coprname            string
+    subject             string
+    genreform           string
+
 dsc                                         desc. Subord. components
     c                   c
 
 did
-    abstract            string
-    langmaterial        string
-    origination         origination
-    physdesc            physdesc
-    physloc             string
-    repository          repository
     unittitle           string
     unitid              string
+    repository          repository
+    langmaterial        langmaterial
+    physdesc            physdesc
     unitdate            string
+    abstract            abstract
+    origination         origination
+    physloc             string
 
 ead
     eadheader           eadheader
@@ -67,16 +83,34 @@ eadid
     @url                string              absolute or relative address of the finding aid
     cdata
 
+emph
+    @render             string
+    cdata
+
 filedesc
     notestmt            note
     publicationstmt     publicationstmt
     titlestmt           titlestmnt
 
+language
+    @langcode           string
+
+langmaterial
+    @id                 string
+    @label              string
+    language
+    cdata
+
 note
     p                   string              paragraph
 
 origination
-    personame           string
+    @label              string
+    persname            accesspoint
+
+persname
+    @source             string
+    cdata
 
 physdesc
     extent              string
@@ -106,11 +140,12 @@ titleproper
 
 
 ------------------------------------------------------------------
-eadnote
-    head                string
-    p                   string
-    emph
-
-*note eadnote is not a qualified ead tag, I have added it here to provide a model for various note fields that consist of a header and formatted text. I also need to investigate
+formattednote
+    @id                 string
+    head                string                      heading
+    p                   string                      paragraph
+    emph                emph
+    lb                                              line break
+*note formattednote is not a qualified ead tag, I have added it here to provide a model for various note fields that consist of a header and formatted text. I also need to investigate
 
 
