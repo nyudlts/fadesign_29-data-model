@@ -1,4 +1,4 @@
-// Ead was generated 2020-06-08 10:48:42 by menneric on f31.
+// Ead was generated 2020-06-08 09:45:11 by menneric on f31.
 type Ead struct {
 	XMLName        xml.Name `xml:"ead"`
 	Text           string   `xml:",chardata"`
@@ -445,6 +445,7 @@ type Ead struct {
 								Title []struct {
 									Text   string `xml:",chardata"`
 									Render string `xml:"render,attr"`
+									Type   string `xml:"type,attr"`
 								} `xml:"title"`
 							} `xml:"unittitle"`
 							Unitdate struct {
