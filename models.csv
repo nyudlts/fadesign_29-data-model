@@ -59,6 +59,7 @@ c,,,TRUE,,Component,,
 ,controlaccess,controlaccess,,,,,Subjects
 ,custodhist,formattednotewithhead,,,,,Custodial History
 ,did,did,,,,,
+,odd,formattednotewithhead,,,,,
 ,phystech,formattednotewithhead,,,,,Physical Characteristics and Technical Requirements
 ,prefercite,formattednotewithhead,,,,,Preferred Citation
 ,processinfo,formattednotewithhead,,,,,Processing Information
@@ -135,6 +136,7 @@ did,,,FALSE,,,,
 ,dao,dao,,,,,
 ,daogrp,daogrp,,,,,
 ,langmaterial,langmaterial,,,,,Language of Materials
+,odd,odd,,,,,
 ,origination,origination,,,,,Creator
 ,physdesc,physdesc,TRUE,,,,Extent
 ,physloc,physloc,,,,,Location of Materials
