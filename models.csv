@@ -250,7 +250,7 @@ physloc,,,TRUE,,,,Location of Materials
 ,CDATA,,,,,,
 ,,,,,,,
 profiledesc,,,FALSE,,,,
-,creation,CDATA,,,,,
+,creation,creation,,,,,
 ,descrules,CDATA,,,,,
 ,langusage,langusage,,,,,
 ,,,,,,,
