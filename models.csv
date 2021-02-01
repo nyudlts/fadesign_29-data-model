@@ -81,6 +81,7 @@ controlaccess,,,TRUE,,,,Subjects
 ,occupation,CDATA,,,,,Occupations
 ,persname,persname,,,,,People
 ,subject,CDATA,,,,,Topics
+,title,title,,,,,Topics
 ,,,,,,,
 container,,,TRUE,,,,
 ,@altrender,CDATA,,,,,
