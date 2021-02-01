@@ -14,26 +14,28 @@ addressline,,,TRUE,,,,
 ,,,,,,,
 archdesc,,,FALSE,,archival description,,
 ,@level,CDATA,,,,,
-,accessrestrict,formattednotewithhead,,,access restriction note,,Conditions Governing Access
-,accruals,formattednotewithhead,,,,,Accruals
-,acqinfo,formattednotewithhead,,,acquisition info note,,Immediate Source of Acquisition
-,altformavailable,formattednotewithhead,,,,,Other Forms Available
-,appraisal,formattednotewithhead,,,,,Appraisal Note
-,arrangement,formattednotewithhead,,,arrangement note,,Arrangement Note
-,bibliography,bibliography,,,,,Bibliography
-,bioghist,formattednotewithhead,,,biographical and historical notes,,Biographical/Historical Note
-,controlaccess,controlaccess,,,control access terms,,Subjects
-,custodhist,formattednotewithhead,,,custodial history,,Custodial History
-,did,did,,,description identifier,,
-,dsc,dsc,,,description of subordinate components,,
-,odd,formattednotewithhead,,,,,General Note
-,phystech,formattednotewithhead,,,Physical Characteristics and Technical Requirements,,Physical Characteristics and Technical Requirements
-,prefercite,formattednotewithhead,,,preferred citation note,,Preferred Citation
-,processinfo,formattednotewithhead,,,processing info note,,Processing Information
-,relatedmaterial,formattednotewithhead,,,,,Related Materials
-,scopecontent,formattednotewithhead,,,scope and content note,,Scope and Content Note
-,seperatedmaterial,formattednotewithhead,,,,,Separated Materials
-,userestrict,formattednotewithhead,,,use restriction note,,Conditions Governing Use
+,accessrestrict,formattednotewithhead,TRUE,,access restriction note,,Conditions Governing Access
+,accruals,formattednotewithhead,TRUE,,,,Accruals
+,acqinfo,formattednotewithhead,FALSE,,acquisition info note,,Immediate Source of Acquisition
+,altformavailable,formattednotewithhead,FALSE,,,,Other Forms Available
+,appraisal,formattednotewithhead,TRUE,,,,Appraisal Note
+,arrangement,formattednotewithhead,TRUE,,arrangement note,,Arrangement Note
+,bibliography,bibliography,FALSE,,,,Bibliography
+,bioghist,formattednotewithhead,TRUE,,biographical and historical notes,,Biographical/Historical Note
+,controlaccess,controlaccess,FALSE,,control access terms,,Subjects
+,custodhist,formattednotewithhead,TRUE,,custodial history,,Custodial History
+,did,did,FALSE,,description identifier,,
+,dsc,dsc,FALSE,,description of subordinate components,,
+,odd,formattednotewithhead,TRUE,,,,General Note
+,Otherfindaid,formattednotewithhead,TRUE,,,,General Note
+,Originalsloc,Formattednotewithhead,FALSE,,,,General Note
+,phystech,formattednotewithhead,TRUE,,Physical Characteristics and Technical Requirements,,Physical Characteristics and Technical Requirements
+,prefercite,formattednotewithhead,TRUE,,preferred citation note,,Preferred Citation
+,processinfo,formattednotewithhead,TRUE,,processing info note,,Processing Information
+,relatedmaterial,formattednotewithhead,TRUE,,,,Related Materials
+,scopecontent,formattednotewithhead,FALSE,,scope and content note,,Scope and Content Note
+,seperatedmaterial,formattednotewithhead,TRUE,,,,Separated Materials
+,userestrict,formattednotewithhead,FALSE,,use restriction note,,Conditions Governing Use
 ,,,,,,,
 bibliography,,,FALSE,,,,
 ,@id,,,,,,
@@ -264,7 +266,7 @@ repository,,,TRUE,,,,
 ,corpname,corpname,,,,,
 ,,,,,,,
 revisiondesc,,,FALSE,,,,Revisions to this Guide
-,change,change,,,,,
+,change,change,TRUE,,,,
 ,,,,,,,
 title,,,TRUE,,,,
 ,@render,,,,,,
