@@ -136,7 +136,7 @@ did,,,FALSE,,,,
 ,daogrp,daogrp,,,,,
 ,langmaterial,langmaterial,,,,,Language of Materials
 ,origination,origination,,,,,Creator
-,physdesc,physdesc,,,,,Extent
+,physdesc,physdesc,TRUE,,,,Extent
 ,physloc,physloc,,,,,Location of Materials
 ,repository,repository,,,,,
 ,unitdate,unitdate,,,,,
@@ -246,8 +246,11 @@ persname,,,TRUE,,,,People
 ,CDATA,,,,,,
 ,,,,,,,
 physdesc,,,TRUE,,,,Extent
-,emph,emph,,,,,
-,extent,extent,,,,,
+,@altrender,CDATA,,,,,
+,@id,CDATA,,,,,
+,emph,emph,TRUE,,,,
+,extent,extent,TRUE,,,,
+,physfacet,CDATA,FALSE,,,,
 ,CDATA,,,,,,
 ,,,,,,,
 physloc,,,TRUE,,,,Location of Materials
