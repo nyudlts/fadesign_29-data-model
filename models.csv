@@ -325,9 +325,9 @@ titleproper,,,TRUE,,,,
 ,,,,,,,
 titlestmt,,,FALSE,,,,Collection Processed by
 ,titleproper,titleproper,TRUE,,,,
-,author,CDATA,FALSE,,,,
-,sponsor,CDATA,FALSE,,,,Sponsor Note
-,subtitle,CDATA,FALSE,,,,
+,author,string,FALSE,,,,
+,sponsor,string,FALSE,,,,Sponsor Note
+,subtitle,string,FALSE,,,,
 ,,,,,,,
 unitdate,,,TRUE,,,,Dates
 ,@normal,CDATA,,,,,
