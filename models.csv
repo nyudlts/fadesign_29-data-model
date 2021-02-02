@@ -151,7 +151,7 @@ did,NA,NA,NA,NA,,,
 ,container,container,,,,,
 ,dao,dao,,,,,
 ,daogrp,daogrp,,,,,
-,langmaterial,langmaterial,,,,,Language of Materials
+,langmaterial,langmaterial,TRUE,,,,Language of Materials
 ,odd,odd,,,,,
 ,origination,origination,TRUE,,,,Creator
 ,physdesc,physdesc,TRUE,,,,Extent
