@@ -241,9 +241,10 @@ item,,,TRUE,,,,
 ,CDATA,,,,,,
 ,emph,emph,TRUE,,,,
 ,,,,,,,
-langmaterial,,,TRUE,,,,Language of Materials
-,@id,,,,,,
-,language,,,,,,
+langmaterial,NA,NA,NA,,,,Language of Materials
+,@id,CDATA,,,,,
+,language,language,FALSE,,,,
+,emph,emph,TRUE,,,,
 ,CDATA,,,,,,
 ,,,,,,,
 language,,,TRUE,,,,
