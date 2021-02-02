@@ -278,9 +278,11 @@ p,,,TRUE,,,,
 ,CDATA,,,,,,
 ,date,date,,,,,
 ,,,,,,,
-persname,,,TRUE,,,,People
-,@role,CDATA,,,,,
-,CDATA,,,,,,
+persname,NA,NA,NA,,,,People
+,@rules,CDATA,FALSE,,,,
+,@source,CDATA,FALSE,,,,
+,@role,CDATA,FALSE,,,,
+,CDATA,,FALSE,,,,
 ,,,,,,,
 physdesc,,,TRUE,,,,Extent
 ,@altrender,CDATA,,,,,
