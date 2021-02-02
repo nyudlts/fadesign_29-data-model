@@ -157,7 +157,7 @@ did,NA,NA,NA,NA,,,
 ,physdesc,physdesc,TRUE,,,,Extent
 ,physloc,physloc,,,,,Location of Materials
 ,repository,repository,,,,,
-,unitdate,unitdate,,,,,
+,unitdate,unitdate,TRUE,,,,
 ,unitid,unitid,,,,,
 ,unittitle,unittitle,,TRUE,,,
 ,,,,,,,
@@ -287,7 +287,7 @@ persname,NA,NA,NA,,,,People
 physdesc,NA,NA,NA,,,,Extent
 ,@altrender,CDATA,FALSE,,,,
 ,@id,CDATA,FALSE,,,,
-,label,CDATA,FALSE,,,,
+,@label,CDATA,FALSE,,,,
 ,emph,emph,TRUE,,,,
 ,extent,extent,TRUE,,,,
 ,physfacet,CDATA,FALSE,,,,
