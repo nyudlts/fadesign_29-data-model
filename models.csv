@@ -152,7 +152,7 @@ did,NA,NA,NA,NA,,,
 ,daogrp,daogrp,,,,,
 ,langmaterial,langmaterial,,,,,Language of Materials
 ,odd,odd,,,,,
-,origination,origination,,,,,Creator
+,origination,origination,TRUE,,,,Creator
 ,physdesc,physdesc,TRUE,,,,Extent
 ,physloc,physloc,,,,,Location of Materials
 ,repository,repository,,,,,
