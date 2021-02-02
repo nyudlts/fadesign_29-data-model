@@ -284,13 +284,14 @@ persname,NA,NA,NA,,,,People
 ,@role,CDATA,FALSE,,,,
 ,CDATA,,FALSE,,,,
 ,,,,,,,
-physdesc,,,TRUE,,,,Extent
-,@altrender,CDATA,,,,,
-,@id,CDATA,,,,,
+physdesc,NA,NA,NA,,,,Extent
+,@altrender,CDATA,FALSE,,,,
+,@id,CDATA,FALSE,,,,
+,label,CDATA,FALSE,,,,
 ,emph,emph,TRUE,,,,
 ,extent,extent,TRUE,,,,
 ,physfacet,CDATA,FALSE,,,,
-,CDATA,,,,,,
+,CDATA,,FALSE,,,,
 ,,,,,,,
 physloc,,,TRUE,,,,Location of Materials
 ,@id,CDATA,,,,,
