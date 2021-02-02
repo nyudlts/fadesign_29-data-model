@@ -147,7 +147,7 @@ defitem,NA,NA,NA,NA,,,
 ,item,item,FALSE,,,,
 ,,,,,,,
 did,NA,NA,NA,NA,,,
-,abstract,abstract,,,,,Abstract
+,abstract,abstract,TRUE,,,,Abstract
 ,container,container,,,,,
 ,dao,dao,,,,,
 ,daogrp,daogrp,,,,,
