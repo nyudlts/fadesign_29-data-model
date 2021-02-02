@@ -1,9 +1,11 @@
 tag,child,type,repeat,optional,translation,note,user-facing-label
-abstract,,,FALSE,,,,Abstract
-,@id,CDATA,,,,,
-,@label,CDATA,,,,,
+abstract,NA,NA,NA,,,,Abstract
+,@id,CDATA,FALSE,,,,
+,@label,CDATA,FALSE,,,,
 ,CDATA,,,,,,
-,emph,emph,,,,,
+,emph,emph,TRUE,,,,
+,lb,lb,TRUE,,,,
+,title,title,TRUE,,,,
 ,,,,,,,
 address,,,TRUE,,,,
 ,addressline,addressline,,,,,
