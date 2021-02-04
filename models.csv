@@ -1,287 +1,351 @@
-tag,child,type,repeat,optional,translation,note,user-facing-label
-abstract,,,FALSE,,,,Abstract
-,@id,CDATA,,,,,
-,@label,CDATA,,,,,
-,CDATA,,,,,,
-,emph,emph,,,,,
-,,,,,,,
-address,,,TRUE,,,,
-,addressline,addressline,,,,,
-,,,,,,,
-addressline,,,TRUE,,,,
-,CDATA,,,,,,
-,extptr,,,,,,
-,,,,,,,
-archdesc,,,FALSE,,archival description,,
-,@level,CDATA,,,,,
-,accessrestrict,formattednotewithhead,,,access restriction note,,Conditions Governing Access
-,accruals,formattednotewithhead,,,,,Accruals
-,acqinfo,formattednotewithhead,,,acquisition info note,,Immediate Source of Acquisition
-,altformavailable,formattednotewithhead,,,,,Other Forms Available
-,appraisal,formattednotewithhead,,,,,Appraisal Note
-,arrangement,formattednotewithhead,,,arrangement note,,Arrangement Note
-,bibliography,bibliography,,,,,Bibliography
-,bioghist,formattednotewithhead,,,biographical and historical notes,,Biographical/Historical Note
-,controlaccess,controlaccess,,,control access terms,,Subjects
-,custodhist,formattednotewithhead,,,custodial history,,Custodial History
-,did,did,,,description identifier,,
-,dsc,dsc,,,description of subordinate components,,
-,odd,formattednotewithhead,,,,,General Note
-,phystech,formattednotewithhead,,,Physical Characteristics and Technical Requirements,,Physical Characteristics and Technical Requirements
-,prefercite,formattednotewithhead,,,preferred citation note,,Preferred Citation
-,processinfo,formattednotewithhead,,,processing info note,,Processing Information
-,relatedmaterial,formattednotewithhead,,,,,Related Materials
-,scopecontent,formattednotewithhead,,,scope and content note,,Scope and Content Note
-,seperatedmaterial,formattednotewithhead,,,,,Separated Materials
-,userestrict,formattednotewithhead,,,use restriction note,,Conditions Governing Use
-,,,,,,,
-bibliography,,,FALSE,,,,
-,@id,,,,,,
-,head,head,,,,,
-,bibref,bibref,,,,,
-,,,,,,,
-bibref,,,FALSE,,,,
-,emph,,,,,,
-,CDATA,,,,,,
-,,,,,,,
-c,,,TRUE,,Component,,
-,@id,CDATA,,,,,
-,@level,CDATA,,,,c tags can be nested up to 12 levels deep,
-,@otherlevel,CDATA,,,,,
-,accessrestrict,formattednotewithhead,,,,,Conditions Governing Access
-,accruals,formattednotewithhead,,,,,Accruals
-,appraisal,formattednotewithhead,,,,,Appraisal Note
-,arrangement,formattednotewithhead,,,,,Arrangement Note
-,bioghist,formattednotewithhead,,,,,Biographical/Historical Note
-,c,c,,,,,
-,controlaccess,controlaccess,,,,,Subjects
-,custodhist,formattednotewithhead,,,,,Custodial History
-,did,did,,,,,
-,phystech,formattednotewithhead,,,,,Physical Characteristics and Technical Requirements
-,prefercite,formattednotewithhead,,,,,Preferred Citation
-,processinfo,formattednotewithhead,,,,,Processing Information
-,relatedmaterial,formattednotewithhead,,,,,Related Materials
-,scopecontent,formattednotewithhead,,,,,Scope and Content Note
-,userestrict,formattednotewithhead,,,,,Conditions Governing Use
-,,,,,,,
-change,,,TRUE,,,,
-,date,CDATA,,,,,
-,item,item,,,,,
-,CDATA,,,,,,
-,,,,,,,
-controlaccess,,,TRUE,,,,Subjects
-,corpname,corpname,,,,,Organizations
-,famname,famname,,,,,Families
-,function,CDATA,,,,,Activities
-,genreform,CDATA,,,,,Genres
-,geogname,CDATA,,,,,Places
-,occupation,CDATA,,,,,Occupations
-,persname,persname,,,,,People
-,subject,CDATA,,,,,Topics
-,,,,,,,
-container,,,TRUE,,,,
-,@altrender,CDATA,,,,,
-,@id,CDATA,,,,,
-,@label,CDATA,,,,,
-,@parent,CDATA,,,,,
-,@type,CDATA,,,,,
-,CDATA,,,,,,
-,,,,,,,
-corpname,,,TRUE,,,,Organizations
-,@role,CDATA,,,,,
-,CDATA,,,,,,
-,,,,,,,
-creation,,,FALSE,,,,
-,date,CDATA,,,,,
-,CDATA,,,,,,
-,,,,,,,
-dao,,,TRUE,,,,
-,@xlink:actuate,CDATA,,,"‘onLoad’, ‘onRequest’, ‘other’, or ‘none’",,
-,@xlink:href,CDATA,,,,,
-,@xlink:role,CDATA,,,,,
-,@xlink:show,CDATA,,,"'new, ‘replace’, ‘embed’, ‘show other’, or ‘shownone",,
-,@xlink:type,CDATA,,,’simple’,,
-,daodesc,daodesc,,,,,
-,CDATA,,,,,,
-,,,,,,,
-daodesc,,,FALSE,,,,
-,p,p,,,,,
-,,,,,,,
-daogrp,,,TRUE,,,,
-,@xlink:title,CDATA,,,,,
-,@xlink:type,CDATA,,,,,
-,daodesc,daodesc,,,,,
-,daoloc,daoloc,,,,,
-,,,,,,,
-daoloc,,,TRUE,,,,
-,@audience,CDATA,,,‘internal’ or ‘external’,,
-,@xlink:href,CDATA,,,,,
-,@xlink:role,CDATA,,,,,
-,@xlink:title,CDATA,,,,,
-,@xlink:type,CDATA,,,,,
-,,,,,,,
-did,,,FALSE,,,,
-,abstract,abstract,,,,,Abstract
-,container,container,,,,,
-,dao,dao,,,,,
-,daogrp,daogrp,,,,,
-,langmaterial,langmaterial,,,,,Language of Materials
-,origination,origination,,,,,Creator
-,physdesc,physdesc,,,,,Extent
-,physloc,physloc,,,,,Location of Materials
-,repository,repository,,,,,
-,unitdate,unitdate,,,,,
-,unitid,unitid,,,,,
-,unittitle,unittitle,,TRUE,,,
-,,,,,,,
-dsc,,,FALSE,,,,
-,c,c,,,,,
-,head,head,,,,,
-,p,p,,,,,
-,,,,,,,
-ead,,,FALSE,,,,
-,eadheader,eadheader,,,,,
-,archdesc,arcdesc,,,,,
-,,,,,,,
-eadheader,,,FALSE,,,,
-,eadid,eadid,,,,,
-,filedesc,filedesc,,,,,
-,profiledesc,profiledesc,,,,,
-,revisiondesc,revisiondesc,,,,,Revisions to this Guide
-,,,,,,,
-eadid,,,FALSE,,,,
-,@countrycode,CDATA,,,,,
-,@mainagency,CDATA,,,,,
-,@url,CDATA,,,,,
-,CDATA,,,,,,
-,,,,,,,
-editionstmt,,,FALSE,,,,Edition of this Guide
-,p,p,,,,,
-,,,,,,,
-emph,,,TRUE,,emphasis,,
-,@render,CDATA,,,,,
-,CDATA,,,,,,
-,,,,,,,
-extent,,,TRUE,,,,
-,CDATA,,,,,,
-,,,,,,,
-extptr,,,TRUE,,,,
-,@xlink:href,CDATA,,,,,
-,@xlink:show,CDATA,,,,,
-,@xlink:title,CDATA,,,,,
-,@xlink:type,CDATA,,,,,
-,,,,,,,
-extref,,,,,,,
-,@xlink:href,CDATA,TRUE,,,,
-,@xlink:show,CDATA,,,,,
-,@xlink:title,CDATA,,,,,
-,@xlink:type,CDATA,,,,,
-,,,,,,,
-famname,,,TRUE,,,,Families
-,@role,CDATA,,,,,
-,CDATA,,,,,,
-,,,,,,,
-filedesc,,,FALSE,,,,
-,editionstmt,editionstmt,,,,,Edition of this Guide
-,notestmt,formattednotewithhead,,,,,
-,publicationstmt,publicationstmt,,,,,
-,titlestmt,titlestmt,,,,,
-,,,,,,,
-formattednotewithhead,,,TRUE,,,,
-,@id,CDATA,,,,,
-,head,head,,,,,
-,p,p,,,,,
-,,,,,,,
-head,,,FALSE,,,,
-,emph,emph,,,,,
-,extptr,extptr,,,,,
-,CDATA,,,,,,
-,,,,,,,
-item,,,TRUE,,,,
-,CDATA,,,,,,
-,,,,,,,
-langmaterial,,,TRUE,,,,Language of Materials
-,@id,,,,,,
-,language,,,,,,
-,CDATA,,,,,,
-,,,,,,,
-language,,,TRUE,,,,
-,@langcode,,,,,,
-,@scriptcode,CDATA,,,,,
-,CDATA,language,,,,,
-,,,,,,,
-,,,,,,,
-langusage,,,FALSE,,,,
-,@langcode,CDATA,,,,,
-,,,,,,,
-lb,,,TRUE,,line break,used in CDATA to specify a line break -- convert to <br>,
-,,,,,,,
-origination,,,TRUE,,,,Creator
-,@label,string,,,,,
-,famname,famname,,,,,Families
-,persname,persname,,,,,People
-,corpname,corpname,,,,,Organizations
-,,,,,,,
-p,,,TRUE,,,,
-,@id,CDATA,,,,,
-,emph,emph,,,,,
-,lb,lb,,,,,
-,CDATA,,,,,,
-,,,,,,,
-persname,,,TRUE,,,,People
-,@role,CDATA,,,,,
-,CDATA,,,,,,
-,,,,,,,
-physdesc,,,TRUE,,,,Extent
-,emph,emph,,,,,
-,extent,extent,,,,,
-,CDATA,,,,,,
-,,,,,,,
-physloc,,,TRUE,,,,Location of Materials
-,@id,CDATA,,,,,
-,CDATA,,,,,,
-,,,,,,,
-profiledesc,,,FALSE,,,,
-,creation,CDATA,,,,,
-,descrules,CDATA,,,,,
-,langusage,langusage,,,,,
-,,,,,,,
-publicationstmt,,,FALSE,,,,
-,address,address,,,,,
-,p,p,,,,,
-,publisher,CDATA,,,,,
-,,,,,,,
-repository,,,TRUE,,,,
-,corpname,corpname,,,,,
-,,,,,,,
-revisiondesc,,,FALSE,,,,Revisions to this Guide
-,change,change,,,,,
-,,,,,,,
-title,,,TRUE,,,,
-,@render,,,,,,
-,CDATA,,,,,,
-,,,,,,,
-,,,,,,,
-titleproper,,,TRUE,,,,
-,CDATA,,,,,,
-,emph,,,,,,
-,lb,,,,,,
-,num,CDATA,,,,,
-,,,,,,,
-titlestmt,,,FALSE,,,,Collection Processed by
-,titleproper,titleproper,,,,,
-,author,CDATA,,,,,
-,sponsor,CDATA,,,,,Sponsor Note
-,,,,,,,
-unitdate,,,TRUE,,,,Dates
-,@normal,CDATA,,,,,
-,@type,CDATA,,,,,
-,CDATA,,,,,,
-,,,,,,,
-unitid,,,TRUE,,,,
-,CDATA,,,,,,
-,,,,,,,
-unittitle,,,TRUE,,,,
-,emph,emph,,,,,
-,title,title,,,,,
-,CDATA,,,,,,
+tag,child,type,repeat,translation,note,user-facing-label
+abstract,,,,,,Abstract
+,@id,CDATA,FALSE,,,
+,@label,CDATA,FALSE,,,
+,CDATA,,,,,
+,emph,emph,TRUE,,,
+,lb,lb,TRUE,,,
+,title,title,TRUE,,,
+,,,,,,
+address,,,,,,
+,addressline,addressline,,,,
+,,,,,,
+addressline,,,,,,
+,CDATA,,,,,
+,extptr,,,,,
+,,,,,,
+archdesc,,,,archival description,,
+,@level,CDATA,,,,
+,accessrestrict,formattednotewithhead,TRUE,access restriction note,,Conditions Governing Access
+,accruals,formattednotewithhead,TRUE,,,Accruals
+,acqinfo,formattednotewithhead,FALSE,acquisition info note,,Immediate Source of Acquisition
+,altformavailable,formattednotewithhead,FALSE,,,Other Forms Available
+,appraisal,formattednotewithhead,TRUE,,,Appraisal Note
+,arrangement,formattednotewithhead,TRUE,arrangement note,,Arrangement Note
+,bibliography,bibliography,FALSE,,,Bibliography
+,bioghist,formattednotewithhead,TRUE,biographical and historical notes,,Biographical/Historical Note
+,controlaccess,controlaccess,FALSE,control access terms,,Subjects
+,custodhist,formattednotewithhead,TRUE,custodial history,,Custodial History
+,did,did,FALSE,description identifier,,
+,dsc,dsc,FALSE,description of subordinate components,,
+,odd,formattednotewithhead,TRUE,,,General Note
+,Otherfindaid,formattednotewithhead,TRUE,,,General Note
+,Originalsloc,Formattednotewithhead,FALSE,,,General Note
+,phystech,formattednotewithhead,TRUE,Physical Characteristics and Technical Requirements,,Physical Characteristics and Technical Requirements
+,prefercite,formattednotewithhead,TRUE,preferred citation note,,Preferred Citation
+,processinfo,formattednotewithhead,TRUE,processing info note,,Processing Information
+,relatedmaterial,formattednotewithhead,TRUE,,,Related Materials
+,scopecontent,formattednotewithhead,FALSE,scope and content note,,Scope and Content Note
+,seperatedmaterial,formattednotewithhead,TRUE,,,Separated Materials
+,userestrict,formattednotewithhead,FALSE,use restriction note,,Conditions Governing Use
+,,,,,,
+bibliography,,,,,,
+,@id,,,,,
+,head,head,,,,
+,bibref,bibref,,,,
+,,,,,,
+bibref,,,,,,
+,emph,,,,,
+,CDATA,,,,,
+,,,,,,
+c,,,,Component,,
+,@id,CDATA,,,,
+,@level,CDATA,,,c tags can be nested up to 12 levels deep,
+,@otherlevel,CDATA,,,,
+,accessrestrict,formattednotewithhead,,,,Conditions Governing Access
+,accruals,formattednotewithhead,,,,Accruals
+,appraisal,formattednotewithhead,,,,Appraisal Note
+,arrangement,formattednotewithhead,,,,Arrangement Note
+,bioghist,formattednotewithhead,,,,Biographical/Historical Note
+,c,c,,,,
+,controlaccess,controlaccess,,,,Subjects
+,custodhist,formattednotewithhead,,,,Custodial History
+,did,did,,,,
+,odd,formattednotewithhead,,,,
+,phystech,formattednotewithhead,,,,Physical Characteristics and Technical Requirements
+,prefercite,formattednotewithhead,,,,Preferred Citation
+,processinfo,formattednotewithhead,,,,Processing Information
+,relatedmaterial,formattednotewithhead,,,,Related Materials
+,scopecontent,formattednotewithhead,,,,Scope and Content Note
+,userestrict,formattednotewithhead,,,,Conditions Governing Use
+,,,,,,
+change,,,,,,
+,date,CDATA,,,,
+,item,item,,,,
+,CDATA,,,,,
+,,,,,,
+controlaccess,,,,,,Subjects
+,corpname,corpname,,,,Organizations
+,famname,famname,,,,Families
+,function,CDATA,,,,Activities
+,genreform,CDATA,,,,Genres
+,geogname,CDATA,,,,Places
+,occupation,CDATA,,,,Occupations
+,persname,persname,,,,People
+,subject,CDATA,,,,Topics
+,title,title,,,,Topics
+,,,,,,
+container,,,,,,
+,@altrender,CDATA,,,,
+,@id,CDATA,,,,
+,@label,CDATA,,,,
+,@parent,CDATA,,,,
+,@type,CDATA,,,,
+,CDATA,,,,,
+,,,,,,
+corpname,,,,,,Organizations
+,@role,CDATA,FALSE,,,
+,@source,CDATA,FALSE,,,
+,CDATA,,,,,
+,,,,,,
+creation,,,,,,
+,date,CDATA,,,,
+,CDATA,,,,,
+,,,,,,
+chronitem,,,,,,
+,date,date,FALSE,,,
+,eventgrp,eventgrp,FALSE,,,
+,CDATA,,FALSE,,,
+,,,,,,
+chronlist,,,,,,
+,head,head,FALSE,,,
+,chronitem,chronitem,TRUE,,,
+,,,,,,
+,,,,,,
+dao,,,,,,
+,@xlink:actuate,CDATA,,,,
+,@xlink:href,CDATA,,,,
+,@xlink:role,CDATA,,,,
+,@xlink:show,CDATA,,,,
+,@xlink:type,CDATA,,,,
+,daodesc,daodesc,,,,
+,CDATA,,,,,
+,,,,,,
+daodesc,,,,,,
+,p,p,,,,
+,,,,,,
+daogrp,,,,,,
+,@xlink:title,CDATA,,,,
+,@xlink:type,CDATA,,,,
+,daodesc,daodesc,,,,
+,daoloc,daoloc,,,,
+,,,,,,
+daoloc,,,,,,
+,@audience,CDATA,,,,
+,@xlink:href,CDATA,,,,
+,@xlink:role,CDATA,,,,
+,@xlink:title,CDATA,,,,
+,@xlink:type,CDATA,,,,
+,,,,,,
+date,,,,,,
+,CDATA,,FALSE,,,
+,@normal,string,FALSE,,,
+,@type,string,FALSE,,,
+,@calendar,string,FALSE,,,
+,@era,string,FALSE,,,
+,,,,,,
+defitem,,,,,,
+,label,string,FALSE,,,
+,item,item,FALSE,,,
+,,,,,,
+did,,,,,,
+,abstract,abstract,TRUE,,,Abstract
+,container,container,,,,
+,dao,dao,,,,
+,daogrp,daogrp,,,,
+,langmaterial,langmaterial,TRUE,,,Language of Materials
+,odd,odd,,,,
+,origination,origination,TRUE,,,Creator
+,physdesc,physdesc,TRUE,,,Extent
+,physloc,physloc,,,,Location of Materials
+,repository,repository,,,,
+,unitdate,unitdate,TRUE,,,
+,unitid,unitid,,,,
+,unittitle,unittitle,,,,
+,,,,,,
+dsc,,,,,,
+,c,c,,,,
+,head,head,,,,
+,p,p,,,,
+,,,,,,
+ead,,,,,,
+,eadheader,eadheader,,,,
+,archdesc,arcdesc,,,,
+,,,,,,
+eadheader,,,,,,
+,eadid,eadid,,,,
+,filedesc,filedesc,,,,
+,profiledesc,profiledesc,,,,
+,revisiondesc,revisiondesc,,,,Revisions to this Guide
+,,,,,,
+eadid,,,,,,
+,@countrycode,CDATA,,,,
+,@mainagency,CDATA,,,,
+,@url,CDATA,,,,
+,CDATA,,,,,
+,,,,,,
+editionstmt,,,,,,Edition of this Guide
+,p,p,,,,
+,,,,,,
+emph,,,,emphasis,,
+,@render,CDATA,,,,
+,CDATA,,,,,
+,,,,,,
+event,,,,,,
+,title,title,FALSE,,,
+,emph,emph,TRUE,,,
+,CDATA,CDATA,FALSE,,,
+,,,,,,
+eventgrp,,,,,,
+,CDATA,FALSE,,,,
+,eventgrp,TRUE,,,,
+,,,,,,
+extent,,,,,,
+,CDATA,,,,,
+,,,,,,
+extptr,,,,,,
+,@xlink:href,CDATA,,,,
+,@xlink:show,CDATA,,,,
+,@xlink:title,CDATA,,,,
+,@xlink:type,CDATA,,,,
+,,,,,,
+extref,,,,,,
+,@xlink:href,CDATA,TRUE,,,
+,@xlink:show,CDATA,,,,
+,@xlink:title,CDATA,,,,
+,@xlink:type,CDATA,,,,
+,,,,,,
+famname,,,,,,Families
+,@rules,CDATA,,,,
+,@source,CDATA,,,,
+,CDATA,,,,,
+,,,,,,
+filedesc,,,,,,
+,editionstmt,editionstmt,,,,Edition of this Guide
+,notestmt,formattednotewithhead,,,,
+,publicationstmt,publicationstmt,,,,
+,titlestmt,titlestmt,,,,
+,,,,,,
+formattednotewithhead,,,,,,
+,@id,CDATA,,,,
+,head,head,,,,
+,p,p,,,,
+,chronlist,chronlist,FALSE,,,
+,list,list,TRUE,,,
+,defitem,defitem,TRUE,,,
+,,,,,,
+head,,,,,,
+,emph,emph,,,,
+,extptr,extptr,,,,
+,CDATA,,,,,
+,,,,,,
+item,,,,,,
+,CDATA,,,,,
+,emph,emph,TRUE,,,
+,,,,,,
+langmaterial,,,,,,Language of Materials
+,@id,CDATA,,,,
+,language,language,FALSE,,,
+,emph,emph,TRUE,,,
+,CDATA,,,,,
+,,,,,,
+language,,,,,,
+,@langcode,,,,,
+,@scriptcode,CDATA,,,,
+,CDATA,language,,,,
+,,,,,,
+,,,,,,
+langusage,,,,,,
+,@langcode,CDATA,,,,
+,@encodinganalog,CDATA,,,,
+,,,,,,
+lb,,,,line break,used in CDATA to specify a line break -- convert to <br>,
+,,,,,,
+list,,,,,,
+,@numeration,CDATA,FALSE,,,
+,@type,CDATA,FALSE,,,
+,head,head,FALSE,,,
+,item,item,TRUE,,,
+,defitem,defitem,TRUE,,,
+,,,,,,
+origination,,,,,,Creator
+,@label,string,,,,
+,famname,famname,,,,Families
+,persname,persname,,,,People
+,corpname,corpname,,,,Organizations
+,,,,,,
+p,,,,,,
+,@id,CDATA,,,,
+,emph,emph,,,,
+,lb,lb,,,,
+,CDATA,,,,,
+,date,date,,,,
+,,,,,,
+persname,,,,,,People
+,@rules,CDATA,FALSE,,,
+,@source,CDATA,FALSE,,,
+,@role,CDATA,FALSE,,,
+,CDATA,,FALSE,,,
+,,,,,,
+physdesc,,,,,,Extent
+,@altrender,CDATA,FALSE,,,
+,@id,CDATA,FALSE,,,
+,@label,CDATA,FALSE,,,
+,emph,emph,TRUE,,,
+,extent,extent,TRUE,,,
+,physfacet,CDATA,FALSE,,,
+,CDATA,,FALSE,,,
+,,,,,,
+physloc,,,,,,Location of Materials
+,@id,CDATA,,,,
+,CDATA,,,,,
+,,,,,,
+profiledesc,,,,,,
+,creation,creation,,,,
+,descrules,CDATA,,,,
+,langusage,langusage,,,,
+,,,,,,
+publicationstmt,,,,,,
+,address,address,,,,
+,p,p,,,,
+,publisher,CDATA,,,,
+,,,,,,
+repository,,,,,,
+,corpname,corpname,,,,
+,,,,,,
+revisiondesc,,,,,,Revisions to this Guide
+,change,change,TRUE,,,
+,,,,,,
+title,,,TRUE,,,
+,@render,,,,,
+,@source,,,,,
+,CDATA,,,,,
+,,,,,,
+,,,,,,
+titleproper,,,,,,
+,CDATA,,FALSE,,,
+,emph,emph,TRUE,,,
+,lb,lb,TRUE,,,
+,@type,CDATA,FALSE,,,
+,num,CDATA,TRUE,,,
+,date,date,TRUE,,,
+,,,,,,
+titlestmt,,,,,,Collection Processed by
+,titleproper,titleproper,TRUE,,,
+,author,string,FALSE,,,
+,sponsor,string,FALSE,,,Sponsor Note
+,subtitle,string,FALSE,,,
+,,,,,,
+unitdate,,,,,,Dates
+,@normal,CDATA,,,,
+,@type,CDATA,,,,
+,CDATA,,,,,
+,,,,,,
+unitid,,,,,,
+,CDATA,,,,,
+,,,,,,
+unittitle,,,,,,
+,lb,lb,TRUE,,,
+,emph,emph,TRUE,,,
+,title,title,TRUE,,,
+,CDATA,,,,,
