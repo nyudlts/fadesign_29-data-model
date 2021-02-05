@@ -150,18 +150,17 @@ defitem,,,,,,
 ,,,,,,
 did,,,,,,
 ,abstract,abstract,TRUE,,,Abstract
-,container,container,,,,
-,dao,dao,,,,
-,daogrp,daogrp,,,,
+,container,container,TRUE,,,
+,dao,dao,TRUE,,,
+,daogrp,daogrp,TRUE,,,
 ,langmaterial,langmaterial,TRUE,,,Language of Materials
-,odd,odd,,,,
 ,origination,origination,TRUE,,,Creator
 ,physdesc,physdesc,TRUE,,,Extent
-,physloc,physloc,,,,Location of Materials
-,repository,repository,,,,
+,physloc,physloc,TRUE,,,Location of Materials
+,repository,repository,FALSE,,,
 ,unitdate,unitdate,TRUE,,,
-,unitid,unitid,,,,
-,unittitle,unittitle,,,,
+,unitid,unitid,FALSE,,,
+,unittitle,unittitle,FALSE,,,
 ,,,,,,
 dsc,,,,,,
 ,c,c,,,,
