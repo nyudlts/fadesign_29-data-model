@@ -221,7 +221,7 @@ famname,,,,,,Families
 ,,,,,,
 filedesc,,,,,,
 ,editionstmt,editionstmt,,,,Edition of this Guide
-,notestmt,formattednotewithhead,,,,
+,notestmt,note,,,,
 ,publicationstmt,publicationstmt,,,,
 ,titlestmt,titlestmt,,,,
 ,,,,,,
@@ -266,6 +266,9 @@ list,,,,,,
 ,head,head,FALSE,,,
 ,item,item,TRUE,,,
 ,defitem,defitem,TRUE,,,
+,,,,,,
+note,,,,,,
+,p,p,,,,
 ,,,,,,
 origination,,,,,,Creator
 ,@label,string,,,,
