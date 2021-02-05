@@ -29,8 +29,8 @@ archdesc,,,,archival description,,
 ,did,did,FALSE,description identifier,,
 ,dsc,dsc,FALSE,description of subordinate components,,
 ,odd,formattednotewithhead,TRUE,,,General Note
-,Otherfindaid,formattednotewithhead,TRUE,,,General Note
-,Originalsloc,Formattednotewithhead,FALSE,,,General Note
+,otherfindaid,formattednotewithhead,TRUE,,,General Note
+,originalsloc,Formattednotewithhead,FALSE,,,General Note
 ,phystech,formattednotewithhead,TRUE,Physical Characteristics and Technical Requirements,,Physical Characteristics and Technical Requirements
 ,prefercite,formattednotewithhead,TRUE,preferred citation note,,Preferred Citation
 ,processinfo,formattednotewithhead,TRUE,processing info note,,Processing Information
@@ -283,11 +283,12 @@ p,,,,,,
 ,emph,emph,TRUE,,,
 ,lb,lb,TRUE,,,
 ,CDATA,,FALSE,,,
-,date,date,DATE,,,
+,date,date,FALSE,,,
 ,extref,extref,FALSE,,,
 ,list,list,FALSE,,,
 ,title,title,FALSE,,,
-,bibref,bibref,,,,
+,bibref,bibref,TRUE,,,
+,address,address,FALSE,,,
 ,,,,,,
 persname,,,,,,People
 ,@rules,CDATA,FALSE,,,
