@@ -70,9 +70,8 @@ c,,,,Component,,
 ,userestrict,formattednotewithhead,,,,Conditions Governing Use
 ,,,,,,
 change,,,,,,
-,date,CDATA,,,,
-,item,item,,,,
-,CDATA,,,,,
+,date,date,FALSE,,,
+,item,item,FALSE,,,
 ,,,,,,
 controlaccess,,,,,,Subjects
 ,corpname,corpname,,,,Organizations
