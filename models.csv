@@ -15,7 +15,7 @@ addressline,,,,,,
 ,extptr,,,,,
 ,,,,,,
 archdesc,,,,archival description,,
-,@level,CDATA,,,,
+,@level,CDATA,FALSE,,,
 ,accessrestrict,formattednotewithhead,TRUE,access restriction note,,Conditions Governing Access
 ,accruals,formattednotewithhead,TRUE,,,Accruals
 ,acqinfo,formattednotewithhead,FALSE,acquisition info note,,Immediate Source of Acquisition
@@ -279,10 +279,13 @@ origination,,,,,,Creator
 ,,,,,,
 p,,,,,,
 ,@id,CDATA,,,,
-,emph,emph,,,,
-,lb,lb,,,,
-,CDATA,,,,,
-,date,date,,,,
+,emph,emph,TRUE,,,
+,lb,lb,TRUE,,,
+,CDATA,,FALSE,,,
+,date,date,DATE,,,
+,extref,extref,FALSE,,,
+,list,list,FALSE,,,
+,title,title,FALSE,,,
 ,,,,,,
 persname,,,,,,People
 ,@rules,CDATA,FALSE,,,
