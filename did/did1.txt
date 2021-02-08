@@ -1,125 +1,125 @@
-    Did        struct {
-        Text      string `xml:",chardata"`
-        Unittitle struct {
-            Text string `xml:",chardata"`
-            Emph []struct {
+Did        struct {
+    Text      string `xml:",chardata"`
+    Unittitle struct {
+        Text string `xml:",chardata"`
+        Emph []struct {
+            Text   string `xml:",chardata"`
+            Render string `xml:"render,attr"`
+            Emph   struct {
                 Text   string `xml:",chardata"`
                 Render string `xml:"render,attr"`
-                Emph   struct {
-                    Text   string `xml:",chardata"`
-                    Render string `xml:"render,attr"`
-                } `xml:"emph"`
-                Lb []string `xml:"lb"`
             } `xml:"emph"`
-            Lb    []string `xml:"lb"`
-            Title []struct {
-                Text   string   `xml:",chardata"`
-                Render string   `xml:"render,attr"`
-                Lb     []string `xml:"lb"`
-            } `xml:"title"`
-            Name struct {
-                Text string `xml:",chardata"`
-                Role string `xml:"role,attr"`
-            } `xml:"name"`
-            Corpname string `xml:"corpname"`
-        } `xml:"unittitle"`
-        Unitid   string `xml:"unitid"`
-        Physdesc []struct {
+            Lb []string `xml:"lb"`
+        } `xml:"emph"`
+        Lb    []string `xml:"lb"`
+        Title []struct {
+            Text   string   `xml:",chardata"`
+            Render string   `xml:"render,attr"`
+            Lb     []string `xml:"lb"`
+        } `xml:"title"`
+        Name struct {
+            Text string `xml:",chardata"`
+            Role string `xml:"role,attr"`
+        } `xml:"name"`
+        Corpname string `xml:"corpname"`
+    } `xml:"unittitle"`
+    Unitid   string `xml:"unitid"`
+    Physdesc []struct {
+        Text      string `xml:",chardata"`
+        Altrender string `xml:"altrender,attr"`
+        ID        string `xml:"id,attr"`
+        Label     string `xml:"label,attr"`
+        Extent    []struct {
             Text      string `xml:",chardata"`
             Altrender string `xml:"altrender,attr"`
-            ID        string `xml:"id,attr"`
-            Label     string `xml:"label,attr"`
-            Extent    []struct {
-                Text      string `xml:",chardata"`
-                Altrender string `xml:"altrender,attr"`
-                Unit      string `xml:"unit,attr"`
-            } `xml:"extent"`
-            Dimensions struct {
-                Text  string `xml:",chardata"`
-                ID    string `xml:"id,attr"`
-                Label string `xml:"label,attr"`
-            } `xml:"dimensions"`
-            Physfacet struct {
-                Text  string `xml:",chardata"`
-                ID    string `xml:"id,attr"`
-                Label string `xml:"label,attr"`
-                Emph  struct {
+            Unit      string `xml:"unit,attr"`
+        } `xml:"extent"`
+        Dimensions struct {
+            Text  string `xml:",chardata"`
+            ID    string `xml:"id,attr"`
+            Label string `xml:"label,attr"`
+        } `xml:"dimensions"`
+        Physfacet struct {
+            Text  string `xml:",chardata"`
+            ID    string `xml:"id,attr"`
+            Label string `xml:"label,attr"`
+            Emph  struct {
+                Text   string `xml:",chardata"`
+                Render string `xml:"render,attr"`
+            } `xml:"emph"`
+        } `xml:"physfacet"`
+    } `xml:"physdesc"`
+    Unitdate []struct {
+        Text      string `xml:",chardata"`
+        Normal    string `xml:"normal,attr"`
+        Type      string `xml:"type,attr"`
+        Certainty string `xml:"certainty,attr"`
+    } `xml:"unitdate"`
+    Langmaterial struct {
+        Text     string `xml:",chardata"`
+        ID       string `xml:"id,attr"`
+        Language struct {
+            Text       string `xml:",chardata"`
+            Langcode   string `xml:"langcode,attr"`
+            Scriptcode string `xml:"scriptcode,attr"`
+        } `xml:"language"`
+    } `xml:"langmaterial"`
+    Container []struct {
+        Text      string `xml:",chardata"`
+        Altrender string `xml:"altrender,attr"`
+        ID        string `xml:"id,attr"`
+        Label     string `xml:"label,attr"`
+        Type      string `xml:"type,attr"`
+        Parent    string `xml:"parent,attr"`
+    } `xml:"container"`
+    Origination []struct {
+        Text     string `xml:",chardata"`
+        Label    string `xml:"label,attr"`
+        Corpname struct {
+            Text   string `xml:",chardata"`
+            Source string `xml:"source,attr"`
+            Role   string `xml:"role,attr"`
+            Rules  string `xml:"rules,attr"`
+        } `xml:"corpname"`
+        Persname struct {
+            Text   string `xml:",chardata"`
+            Role   string `xml:"role,attr"`
+            Source string `xml:"source,attr"`
+            Rules  string `xml:"rules,attr"`
+        } `xml:"persname"`
+    } `xml:"origination"`
+    Dao []struct {
+        Text    string `xml:",chardata"`
+        Actuate string `xml:"actuate,attr"`
+        Href    string `xml:"href,attr"`
+        Role    string `xml:"role,attr"`
+        Show    string `xml:"show,attr"`
+        Title   string `xml:"title,attr"`
+        Type    string `xml:"type,attr"`
+        Daodesc struct {
+            Text string `xml:",chardata"`
+            P    struct {
+                Text string `xml:",chardata"`
+                Emph []struct {
                     Text   string `xml:",chardata"`
                     Render string `xml:"render,attr"`
                 } `xml:"emph"`
-            } `xml:"physfacet"`
-        } `xml:"physdesc"`
-        Unitdate []struct {
-            Text      string `xml:",chardata"`
-            Normal    string `xml:"normal,attr"`
-            Type      string `xml:"type,attr"`
-            Certainty string `xml:"certainty,attr"`
-        } `xml:"unitdate"`
-        Langmaterial struct {
-            Text     string `xml:",chardata"`
-            ID       string `xml:"id,attr"`
-            Language struct {
-                Text       string `xml:",chardata"`
-                Langcode   string `xml:"langcode,attr"`
-                Scriptcode string `xml:"scriptcode,attr"`
-            } `xml:"language"`
-        } `xml:"langmaterial"`
-        Container []struct {
-            Text      string `xml:",chardata"`
-            Altrender string `xml:"altrender,attr"`
-            ID        string `xml:"id,attr"`
-            Label     string `xml:"label,attr"`
-            Type      string `xml:"type,attr"`
-            Parent    string `xml:"parent,attr"`
-        } `xml:"container"`
-        Origination []struct {
-            Text     string `xml:",chardata"`
-            Label    string `xml:"label,attr"`
-            Corpname struct {
-                Text   string `xml:",chardata"`
-                Source string `xml:"source,attr"`
-                Role   string `xml:"role,attr"`
-                Rules  string `xml:"rules,attr"`
-            } `xml:"corpname"`
-            Persname struct {
-                Text   string `xml:",chardata"`
-                Role   string `xml:"role,attr"`
-                Source string `xml:"source,attr"`
-                Rules  string `xml:"rules,attr"`
-            } `xml:"persname"`
-        } `xml:"origination"`
-        Dao []struct {
-            Text    string `xml:",chardata"`
-            Actuate string `xml:"actuate,attr"`
-            Href    string `xml:"href,attr"`
-            Role    string `xml:"role,attr"`
-            Show    string `xml:"show,attr"`
-            Title   string `xml:"title,attr"`
-            Type    string `xml:"type,attr"`
-            Daodesc struct {
-                Text string `xml:",chardata"`
-                P    struct {
-                    Text string `xml:",chardata"`
-                    Emph []struct {
-                        Text   string `xml:",chardata"`
-                        Render string `xml:"render,attr"`
-                    } `xml:"emph"`
-                    Name string `xml:"name"`
-                    Lb   string `xml:"lb"`
-                } `xml:"p"`
-            } `xml:"daodesc"`
-        } `xml:"dao"`
-        Physloc struct {
-            Text string `xml:",chardata"`
-            ID   string `xml:"id,attr"`
-        } `xml:"physloc"`
-        Abstract struct {
-            Text string   `xml:",chardata"`
-            ID   string   `xml:"id,attr"`
-            Lb   []string `xml:"lb"`
-        } `xml:"abstract"`
-        Materialspec struct {
-            Text string `xml:",chardata"`
-            ID   string `xml:"id,attr"`
-        } `xml:"materialspec"`
-    } `xml:"did"`
+                Name string `xml:"name"`
+                Lb   string `xml:"lb"`
+            } `xml:"p"`
+        } `xml:"daodesc"`
+    } `xml:"dao"`
+    Physloc struct {
+        Text string `xml:",chardata"`
+        ID   string `xml:"id,attr"`
+    } `xml:"physloc"`
+    Abstract struct {
+        Text string   `xml:",chardata"`
+        ID   string   `xml:"id,attr"`
+        Lb   []string `xml:"lb"`
+    } `xml:"abstract"`
+    Materialspec struct {
+        Text string `xml:",chardata"`
+        ID   string `xml:"id,attr"`
+    } `xml:"materialspec"`
+} `xml:"did"`
