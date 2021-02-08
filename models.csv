@@ -50,25 +50,25 @@ bibref,,,,,,
 ,CDATA,,,,,
 ,,,,,,
 c,,,,Component,,
-,@id,CDATA,,,,
-,@level,CDATA,,,c tags can be nested up to 12 levels deep,
-,@otherlevel,CDATA,,,,
+,@id,CDATA,FALSE,,,
+,@level,CDATA,FALSE,,c tags can be nested up to 12 levels deep,
+,@otherlevel,CDATA,FALSE,,,
 ,accessrestrict,formattednotewithhead,,,,Conditions Governing Access
 ,accruals,formattednotewithhead,,,,Accruals
 ,appraisal,formattednotewithhead,,,,Appraisal Note
 ,arrangement,formattednotewithhead,,,,Arrangement Note
 ,bioghist,formattednotewithhead,,,,Biographical/Historical Note
-,c,c,,,,
-,controlaccess,controlaccess,,,,Subjects
+,c,c,TRUE,,,
+,controlaccess,controlaccess,FALSE,,,Subjects
 ,custodhist,formattednotewithhead,,,,Custodial History
 ,did,did,,,,
-,odd,formattednotewithhead,,,,
-,phystech,formattednotewithhead,,,,Physical Characteristics and Technical Requirements
+,odd,formattednotewithhead,TRUE,,,
+,phystech,formattednotewithhead,FALSE,,,Physical Characteristics and Technical Requirements
 ,prefercite,formattednotewithhead,,,,Preferred Citation
 ,processinfo,formattednotewithhead,,,,Processing Information
 ,relatedmaterial,formattednotewithhead,,,,Related Materials
 ,scopecontent,formattednotewithhead,,,,Scope and Content Note
-,userestrict,formattednotewithhead,,,,Conditions Governing Use
+,userestrict,formattednotewithhead,FALSE,,,Conditions Governing Use
 ,,,,,,
 change,,,,,,
 ,date,date,FALSE,,,
