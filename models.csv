@@ -39,6 +39,10 @@ archdesc,,,,archival description,,
 ,seperatedmaterial,formattednotewithhead,TRUE,,,Separated Materials
 ,userestrict,formattednotewithhead,FALSE,use restriction note,,Conditions Governing Use
 ,,,,,,
+archref,,,,,,
+,physloc,physloc,FALSE,,,
+,CDATA,,FALSE,,,
+,,,,,,
 bibliography,,,,,,
 ,@id,,,,,
 ,head,head,,,,
