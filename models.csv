@@ -280,6 +280,10 @@ list,,,,,,
 note,,,,,,
 ,p,p,,,,
 ,,,,,,
+num,,,,,,
+,@type,CDATA,FALSE,,,
+,CDATA,,,,,
+,,,,,,
 origination,,,,,,Creator
 ,@label,string,,,,
 ,famname,famname,,,,Families
@@ -297,6 +301,7 @@ p,,,,,,
 ,title,title,FALSE,,,
 ,bibref,bibref,TRUE,,,
 ,address,address,FALSE,,,
+,num,num,FALSE,,,
 ,,,,,,
 persname,,,,,,People
 ,@rules,CDATA,FALSE,,,
