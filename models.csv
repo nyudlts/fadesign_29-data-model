@@ -306,6 +306,7 @@ p,,,,,,
 ,bibref,bibref,TRUE,,,
 ,address,address,FALSE,,,
 ,num,num,FALSE,,,
+,archref,arcref,FALSE,,,
 ,,,,,,
 persname,,,,,,People
 ,@rules,CDATA,FALSE,,,
