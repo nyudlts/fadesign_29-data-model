@@ -1,0 +1,38 @@
+Did        struct {
+        Text      string `xml:",chardata"`
+        Unittitle string `xml:"unittitle"`
+        Unitdate  struct {
+            Text   string `xml:",chardata"`
+            Normal string `xml:"normal,attr"`
+            Type   string `xml:"type,attr"`
+        } `xml:"unitdate"`
+        Langmaterial struct {
+            Text     string `xml:",chardata"`
+            Language struct {
+                Text     string `xml:",chardata"`
+                Langcode string `xml:"langcode,attr"`
+            } `xml:"language"`
+        } `xml:"langmaterial"`
+        Container []struct {
+            Text      string `xml:",chardata"`
+            ID        string `xml:"id,attr"`
+            Label     string `xml:"label,attr"`
+            Type      string `xml:"type,attr"`
+            Altrender string `xml:"altrender,attr"`
+            Parent    string `xml:"parent,attr"`
+        } `xml:"container"`
+        Dao struct {
+            Text    string `xml:",chardata"`
+            Actuate string `xml:"actuate,attr"`
+            Href    string `xml:"href,attr"`
+            Role    string `xml:"role,attr"`
+            Show    string `xml:"show,attr"`
+            Title   string `xml:"title,attr"`
+            Type    string `xml:"type,attr"`
+            Daodesc struct {
+                Text string `xml:",chardata"`
+                P    string `xml:"p"`
+            } `xml:"daodesc"`
+        } `xml:"dao"`
+        Unitid string `xml:"unitid"`
+    } `xml:"did"`
