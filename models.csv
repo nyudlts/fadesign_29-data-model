@@ -53,7 +53,7 @@ c,,,,Component,,
 ,@id,CDATA,FALSE,,,
 ,@level,CDATA,FALSE,,c tags can be nested up to 12 levels deep,
 ,@otherlevel,CDATA,FALSE,,,
-,accessrestrict,formattednotewithhead,,,,Conditions Governing Access
+,accessrestrict,formattednotewithhead,FALSE,,,Conditions Governing Access
 ,accruals,formattednotewithhead,,,,Accruals
 ,appraisal,formattednotewithhead,,,,Appraisal Note
 ,arrangement,formattednotewithhead,,,,Arrangement Note
@@ -64,10 +64,10 @@ c,,,,Component,,
 ,did,did,,,,
 ,odd,formattednotewithhead,TRUE,,,
 ,phystech,formattednotewithhead,FALSE,,,Physical Characteristics and Technical Requirements
-,prefercite,formattednotewithhead,,,,Preferred Citation
+,prefercite,formattednotewithhead,FALSE,,,Preferred Citation
 ,processinfo,formattednotewithhead,,,,Processing Information
 ,relatedmaterial,formattednotewithhead,,,,Related Materials
-,scopecontent,formattednotewithhead,,,,Scope and Content Note
+,scopecontent,formattednotewithhead,TRUE,,,Scope and Content Note
 ,userestrict,formattednotewithhead,FALSE,,,Conditions Governing Use
 ,,,,,,
 change,,,,,,
