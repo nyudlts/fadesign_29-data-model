@@ -1,0 +1,219 @@
+Bioghist []struct {
+			Text string `xml:",chardata"`
+			ID   string `xml:"id,attr"`
+			Head string `xml:"head"`
+			P    []struct {
+				Text string `xml:",chardata"`
+				Emph []struct {
+					Text   string `xml:",chardata"`
+					Render string `xml:"render,attr"`
+					Extref struct {
+						Text string `xml:",chardata"`
+						Href string `xml:"href,attr"`
+					} `xml:"extref"`
+					Emph struct {
+						Text   string `xml:",chardata"`
+						Render string `xml:"render,attr"`
+					} `xml:"emph"`
+				} `xml:"emph"`
+				List []struct {
+					Text string `xml:",chardata"`
+					Item []struct {
+						Text  string `xml:",chardata"`
+						Title []struct {
+							Text   string `xml:",chardata"`
+							Render string `xml:"render,attr"`
+							Type   string `xml:"type,attr"`
+						} `xml:"title"`
+						Emph []struct {
+							Text   string `xml:",chardata"`
+							Render string `xml:"render,attr"`
+						} `xml:"emph"`
+						Bibref struct {
+							Text  string `xml:",chardata"`
+							Title struct {
+								Text   string `xml:",chardata"`
+								Render string `xml:"render,attr"`
+							} `xml:"title"`
+						} `xml:"bibref"`
+					} `xml:"item"`
+					Head struct {
+						Text string `xml:",chardata"`
+						Emph struct {
+							Text   string `xml:",chardata"`
+							Render string `xml:"render,attr"`
+						} `xml:"emph"`
+					} `xml:"head"`
+				} `xml:"list"`
+				Persname []struct {
+					Text   string `xml:",chardata"`
+					Normal string `xml:"normal,attr"`
+				} `xml:"persname"`
+				Corpname []struct {
+					Text           string `xml:",chardata"`
+					Source         string `xml:"source,attr"`
+					Encodinganalog string `xml:"encodinganalog,attr"`
+				} `xml:"corpname"`
+				Geogname []string `xml:"geogname"`
+				Date     []struct {
+					Text     string `xml:",chardata"`
+					Calendar string `xml:"calendar,attr"`
+					Era      string `xml:"era,attr"`
+				} `xml:"date"`
+				Subject    []string `xml:"subject"`
+				Occupation []string `xml:"occupation"`
+				Title      []struct {
+					Text   string `xml:",chardata"`
+					Type   string `xml:"type,attr"`
+					Render string `xml:"render,attr"`
+					Emph   struct {
+						Text   string `xml:",chardata"`
+						Render string `xml:"render,attr"`
+					} `xml:"emph"`
+				} `xml:"title"`
+				Extref []struct {
+					Text    string `xml:",chardata"`
+					Href    string `xml:"href,attr"`
+					Actuate string `xml:"actuate,attr"`
+					Show    string `xml:"show,attr"`
+					Title   string `xml:"title,attr"`
+					Emph    struct {
+						Text   string `xml:",chardata"`
+						Render string `xml:"render,attr"`
+					} `xml:"emph"`
+				} `xml:"extref"`
+				Lb         []string `xml:"lb"`
+				Blockquote struct {
+					Text string `xml:",chardata"`
+					P    string `xml:"p"`
+				} `xml:"blockquote"`
+				Name      []string `xml:"name"`
+				Chronlist struct {
+					Text      string `xml:",chardata"`
+					Chronitem []struct {
+						Text string `xml:",chardata"`
+						Date struct {
+							Text     string `xml:",chardata"`
+							Calendar string `xml:"calendar,attr"`
+							Era      string `xml:"era,attr"`
+						} `xml:"date"`
+						Event struct {
+							Text  string `xml:",chardata"`
+							Title struct {
+								Text   string `xml:",chardata"`
+								Render string `xml:"render,attr"`
+							} `xml:"title"`
+							Emph struct {
+								Text   string `xml:",chardata"`
+								Render string `xml:"render,attr"`
+							} `xml:"emph"`
+						} `xml:"event"`
+						Eventgrp struct {
+							Text  string `xml:",chardata"`
+							Event []struct {
+								Text  string `xml:",chardata"`
+								Title struct {
+									Text   string `xml:",chardata"`
+									Render string `xml:"render,attr"`
+								} `xml:"title"`
+							} `xml:"event"`
+						} `xml:"eventgrp"`
+					} `xml:"chronitem"`
+					Head struct {
+						Text string `xml:",chardata"`
+						Emph struct {
+							Text   string `xml:",chardata"`
+							Render string `xml:"render,attr"`
+						} `xml:"emph"`
+					} `xml:"head"`
+				} `xml:"chronlist"`
+				Abbr  string `xml:"abbr"`
+				Table struct {
+					Text   string `xml:",chardata"`
+					Tgroup struct {
+						Text    string `xml:",chardata"`
+						Cols    string `xml:"cols,attr"`
+						Colspec []struct {
+							Text     string `xml:",chardata"`
+							Colwidth string `xml:"colwidth,attr"`
+						} `xml:"colspec"`
+						Tbody struct {
+							Text string `xml:",chardata"`
+							Row  []struct {
+								Text  string `xml:",chardata"`
+								Entry []struct {
+									Text string `xml:",chardata"`
+									Emph struct {
+										Text   string `xml:",chardata"`
+										Render string `xml:"render,attr"`
+									} `xml:"emph"`
+								} `xml:"entry"`
+							} `xml:"row"`
+						} `xml:"tbody"`
+					} `xml:"tgroup"`
+				} `xml:"table"`
+				Bibref struct {
+					Text  string `xml:",chardata"`
+					Title []struct {
+						Text   string `xml:",chardata"`
+						Render string `xml:"render,attr"`
+					} `xml:"title"`
+					Emph struct {
+						Text   string `xml:",chardata"`
+						Render string `xml:"render,attr"`
+					} `xml:"emph"`
+				} `xml:"bibref"`
+			} `xml:"p"`
+			List []struct {
+				Text       string `xml:",chardata"`
+				Type       string `xml:"type,attr"`
+				Numeration string `xml:"numeration,attr"`
+				Head       string `xml:"head"`
+				Item       []struct {
+					Text string `xml:",chardata"`
+					Name string `xml:"name"`
+					Emph struct {
+						Text   string `xml:",chardata"`
+						Render string `xml:"render,attr"`
+					} `xml:"emph"`
+					Title struct {
+						Text   string `xml:",chardata"`
+						Render string `xml:"render,attr"`
+					} `xml:"title"`
+				} `xml:"item"`
+				Defitem []struct {
+					Text  string `xml:",chardata"`
+					Label string `xml:"label"`
+					Item  struct {
+						Text string   `xml:",chardata"`
+						Lb   []string `xml:"lb"`
+						Emph []struct {
+							Text   string `xml:",chardata"`
+							Render string `xml:"render,attr"`
+						} `xml:"emph"`
+					} `xml:"item"`
+				} `xml:"defitem"`
+			} `xml:"list"`
+			Chronlist struct {
+				Text      string `xml:",chardata"`
+				Head      string `xml:"head"`
+				Chronitem []struct {
+					Text     string `xml:",chardata"`
+					Date     string `xml:"date"`
+					Eventgrp struct {
+						Text  string `xml:",chardata"`
+						Event []struct {
+							Text  string `xml:",chardata"`
+							Title struct {
+								Text   string `xml:",chardata"`
+								Render string `xml:"render,attr"`
+							} `xml:"title"`
+							Emph struct {
+								Text   string `xml:",chardata"`
+								Render string `xml:"render,attr"`
+							} `xml:"emph"`
+						} `xml:"event"`
+					} `xml:"eventgrp"`
+				} `xml:"chronitem"`
+			} `xml:"chronlist"`
+		} `xml:"bioghist"`

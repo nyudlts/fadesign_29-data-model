@@ -1,0 +1,75 @@
+		Scopecontent struct {
+			Text string `xml:",chardata"`
+			ID   string `xml:"id,attr"`
+			Head string `xml:"head"`
+			P    []struct {
+				Text string `xml:",chardata"`
+				Emph []struct {
+					Text   string `xml:",chardata"`
+					Render string `xml:"render,attr"`
+					Emph   struct {
+						Text   string `xml:",chardata"`
+						Render string `xml:"render,attr"`
+					} `xml:"emph"`
+					Title struct {
+						Text   string `xml:",chardata"`
+						Render string `xml:"render,attr"`
+					} `xml:"title"`
+				} `xml:"emph"`
+				Corpname []struct {
+					Text string `xml:",chardata"`
+					Emph struct {
+						Text   string `xml:",chardata"`
+						Render string `xml:"render,attr"`
+					} `xml:"emph"`
+				} `xml:"corpname"`
+				Date struct {
+					Text     string `xml:",chardata"`
+					Calendar string `xml:"calendar,attr"`
+					Era      string `xml:"era,attr"`
+				} `xml:"date"`
+				List []struct {
+					Text string `xml:",chardata"`
+					Head string `xml:"head"`
+					Item []struct {
+						Text  string `xml:",chardata"`
+						Title []struct {
+							Text   string `xml:",chardata"`
+							Render string `xml:"render,attr"`
+						} `xml:"title"`
+						Emph []struct {
+							Text   string `xml:",chardata"`
+							Render string `xml:"render,attr"`
+						} `xml:"emph"`
+						Lb []string `xml:"lb"`
+					} `xml:"item"`
+				} `xml:"list"`
+				Title []struct {
+					Text   string `xml:",chardata"`
+					Render string `xml:"render,attr"`
+					Type   string `xml:"type,attr"`
+				} `xml:"title"`
+				Genreform  []string `xml:"genreform"`
+				Name       []string `xml:"name"`
+				Occupation string   `xml:"occupation"`
+				Lb         []string `xml:"lb"`
+				Extref     struct {
+					Text string `xml:",chardata"`
+					Href string `xml:"href,attr"`
+				} `xml:"extref"`
+				Archref struct {
+					Text   string `xml:",chardata"`
+					Extref struct {
+						Text string `xml:",chardata"`
+						Href string `xml:"href,attr"`
+					} `xml:"extref"`
+				} `xml:"archref"`
+				Persname string `xml:"persname"`
+			} `xml:"p"`
+			List []struct {
+				Text string   `xml:",chardata"`
+				Type string   `xml:"type,attr"`
+				Head string   `xml:"head"`
+				Item []string `xml:"item"`
+			} `xml:"list"`
+		} `xml:"scopecontent"`
