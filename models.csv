@@ -26,11 +26,11 @@ archdesc,,,,archival description,,
 ,bioghist,formattednotewithhead,TRUE,biographical and historical notes,,Biographical/Historical Note
 ,controlaccess,controlaccess,FALSE,control access terms,,Subjects
 ,custodhist,formattednotewithhead,TRUE,custodial history,,Custodial History
-,did,did,FALSE,description identifier,,
+,did,did,FALSE,description identifier,,Call Number
 ,dsc,dsc,FALSE,description of subordinate components,,
 ,odd,formattednotewithhead,TRUE,,,General Note
-,otherfindaid,formattednotewithhead,TRUE,,,General Note
-,originalsloc,Formattednotewithhead,FALSE,,,General Note
+,otherfindaid,formattednotewithhead,TRUE,,,Other Finding Aids Available
+,originalsloc,Formattednotewithhead,FALSE,,,Location of Originals
 ,phystech,formattednotewithhead,TRUE,Physical Characteristics and Technical Requirements,,Physical Characteristics and Technical Requirements
 ,prefercite,formattednotewithhead,TRUE,preferred citation note,,Preferred Citation
 ,processinfo,formattednotewithhead,TRUE,processing info note,,Processing Information
@@ -43,7 +43,7 @@ archref,,,,,,
 ,physloc,physloc,FALSE,,,
 ,CDATA,,FALSE,,,
 ,,,,,,
-bibliography,,,,,,
+bibliography,,,,,,Bibliography
 ,@id,CDATA,FALSE,,,
 ,head,head,FALSE,,,
 ,bibref,bibref,TRUE,,,
@@ -63,7 +63,7 @@ c,,,,Component,,
 ,@otherlevel,CDATA,FALSE,,,
 ,accessrestrict,formattednotewithhead,TRUE,,,Conditions Governing Access
 ,accruals,formattednotewithhead,TRUE,,,Accruals
-,acqinfo,formattednotewithhead,TRUE,,,Accruals
+,acqinfo,formattednotewithhead,TRUE,,,Immediate Source of Acquisition
 ,appraisal,formattednotewithhead,TRUE,,,Appraisal Note
 ,arrangement,formattednotewithhead,TRUE,,,Arrangement Note
 ,bioghist,formattednotewithhead,TRUE,,,Biographical/Historical Note
@@ -71,11 +71,11 @@ c,,,,Component,,
 ,controlaccess,controlaccess,TRUE,,,Subjects
 ,custodhist,formattednotewithhead,TRUE,,,Custodial History
 ,did,did,FALSE,,,
-,fileplan,formattednotewithhead,TRUE,,,
-,index,index,FALSE,,,
-,odd,formattednotewithhead,TRUE,,,
-,otherfindaid,formattednotewithhead,TRUE,,,
-,originalsloc,formattednotewithhead,TRUE,,,
+,fileplan,formattednotewithhead,TRUE,,,File Plan
+,index,index,FALSE,,,Index
+,odd,formattednotewithhead,TRUE,,,General Note
+,otherfindaid,formattednotewithhead,TRUE,,,Other Finding Aids Note
+,originalsloc,formattednotewithhead,TRUE,,,Location of Originals
 ,phystech,formattednotewithhead,TRUE,,,Physical Characteristics and Technical Requirements
 ,prefercite,formattednotewithhead,TRUE,,,Preferred Citation
 ,processinfo,formattednotewithhead,TRUE,,,Processing Information
@@ -97,7 +97,7 @@ controlaccess,,,,,,Subjects
 ,occupation,occupation,TRUE,,,Occupations
 ,persname,persname,TRUE,,,People
 ,subject,subject,TRUE,,,Topics
-,title,title,TRUE,,,Topics
+,title,title,TRUE,,,Titles
 ,,,,,,
 container,,,,,,
 ,@altrender,CDATA,FALSE,,,
@@ -166,9 +166,9 @@ did,,,,,,
 ,abstract,abstract,TRUE,,,Abstract
 ,container,container,TRUE,,,
 ,dao,dao,TRUE,,,
-,daogrp,daogrp,TRUE,,,Language of Materials
-,langmaterial,langmaterial,TRUE,,,
-,materialspec,formattednotewithhead,TRUE,,,
+,daogrp,daogrp,TRUE,,,
+,langmaterial,langmaterial,TRUE,,,Language of Materials
+,materialspec,formattednotewithhead,TRUE,,,Material Specific Details
 ,origination,origination,TRUE,,,Creator
 ,physdesc,physdesc,TRUE,,,Extent
 ,physloc,physloc,TRUE,,,Location of Materials
@@ -177,7 +177,7 @@ did,,,,,,
 ,unitid,CDATA,FALSE,,,
 ,unittitle,unittitle,FALSE,,,
 ,,,,,,
-dimensions,,,,,,
+dimensions,,,,,,Dimensions
 ,@id,CDATA,FALSE,,,
 ,@label,CDATA,FALSE,,,
 ,CDATA,,FALSE,,,
@@ -258,15 +258,15 @@ formattednotewithhead,,,,,,
 ,list,list,TRUE,,,
 ,p,p,FALSE,,,
 ,,,,,,
-function,,,,,,
+function,,,,,,Activities
 ,@source,CDATA,FALSE,,,
 ,CDATA,,FALSE,,,
 ,,,,,,
-genreform,,,,,,
+genreform,,,,,,Genres
 ,@source,CDATA,FALSE,,,
 ,CDATA,,FALSE,,,
 ,,,,,,
-geogname,,,,,,
+geogname,,,,,,Places
 ,@source,CDATA,FALSE,,,
 ,CDATA,,FALSE,,,
 ,,,,,,
@@ -275,7 +275,7 @@ head,,,,,,
 ,extptr,extptr,TRUE,,,
 ,CDATA,,FALSE,,,
 ,,,,,,
-index,,,,,,
+index,,,,,,Index
 ,@id,CDATA,FALSE,,,
 ,head,head,FALSE,,,
 ,indexentry,indexentry,TRUE,,,
@@ -330,17 +330,17 @@ name,,,,,,
 ,@role,CDATA,FALSE,,,
 ,CDATA,,FALSE,,,
 ,,,,,,
-note,,,,,,
+note,,,,,,Note
 ,p,p,TRUE,,,
 ,,,,,,
-notestmt,,,,,,
+notestmt,,,,,,Note Statement
 ,note,note,TRUE,,,
 ,,,,,,
 num,,,,,,
 ,@type,CDATA,FALSE,,,
 ,CDATA,,FALSE,,,
 ,,,,,,
-occupation,,,,,,
+occupation,,,,,,Occupations
 ,@type,CDATA,FALSE,,,
 ,CDATA,,FALSE,,,
 ,,,,,,
@@ -384,10 +384,10 @@ physdesc,,,,,,
 ,emph,emph,TRUE,,,
 ,extent,extent,TRUE,,,Extent
 ,dimensions,dimensions,FALSE,,,
-,physfacet,physfacet,FALSE,,,
+,physfacet,physfacet,FALSE,,,Physical Facet
 ,CDATA,,FALSE,,,
 ,,,,,,
-physfacet,,,,,,
+physfacet,,,,,,Physical Facet
 ,@id,CDATA,FALSE,,,
 ,@label,CDATA,FALSE,,,
 ,emph,emph,TRUE,,,
@@ -414,7 +414,7 @@ repository,,,,,,
 revisiondesc,,,,,,Revisions to this Guide
 ,change,change,TRUE,,,
 ,,,,,,
-subject,,,,,,
+subject,,,,,,Subjects
 ,@source,CDATA,FALSE,,,
 ,CDATA,,FALSE,,,
 ,,,,,,
@@ -438,7 +438,7 @@ titlestmt,,,,,,
 ,subtitle,CDATA,FALSE,,,
 ,titleproper,titleproper,TRUE,,,
 ,,,,,,
-unitdate,,,,,,Dates
+unitdate,,,,,,
 ,@certainty,CDATA,FALSE,,,
 ,@normal,CDATA,FALSE,,,
 ,@type,CDATA,FALSE,,,
