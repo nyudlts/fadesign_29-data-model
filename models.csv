@@ -18,11 +18,11 @@ archdesc,,,,archival description,,
 ,@level,CDATA,NA,,,
 ,accessrestrict,formattednotewithhead,TRUE,access restriction note,,Conditions Governing Access
 ,accruals,formattednotewithhead,TRUE,,,Accruals
-,acqinfo,formattednotewithhead,FALSE,acquisition info note,,Immediate Source of Acquisition
-,altformavailable,formattednotewithhead,FALSE,,,Other Forms Available
+,acqinfo,formattednotewithhead,TRUE,acquisition info note,,Immediate Source of Acquisition
+,altformavailable,formattednotewithhead,TRUE,,,Other Forms Available
 ,appraisal,formattednotewithhead,TRUE,,,Appraisal Note
 ,arrangement,formattednotewithhead,TRUE,arrangement note,,Arrangement Note
-,bibliography,bibliography,FALSE,,,Bibliography
+,bibliography,bibliography,TRUE,,,Bibliography
 ,bioghist,formattednotewithhead,TRUE,biographical and historical notes,,Biographical/Historical Note
 ,controlaccess,controlaccess,FALSE,control access terms,,Subjects
 ,custodhist,formattednotewithhead,TRUE,custodial history,,Custodial History
@@ -30,14 +30,14 @@ archdesc,,,,archival description,,
 ,dsc,dsc,FALSE,description of subordinate components,,
 ,odd,formattednotewithhead,TRUE,,,General Note
 ,otherfindaid,formattednotewithhead,TRUE,,,Other Finding Aids Available
-,originalsloc,Formattednotewithhead,FALSE,,,Location of Originals
+,originalsloc,Formattednotewithhead,TRUE,,,Location of Originals
 ,phystech,formattednotewithhead,TRUE,Physical Characteristics and Technical Requirements,,Physical Characteristics and Technical Requirements
 ,prefercite,formattednotewithhead,TRUE,preferred citation note,,Preferred Citation
 ,processinfo,formattednotewithhead,TRUE,processing info note,,Processing Information
 ,relatedmaterial,formattednotewithhead,TRUE,,,Related Materials
-,scopecontent,formattednotewithhead,FALSE,scope and content note,,Scope and Content Note
+,scopecontent,formattednotewithhead,TRUE,scope and content note,,Scope and Content Note
 ,seperatedmaterial,formattednotewithhead,TRUE,,,Separated Materials
-,userestrict,formattednotewithhead,FALSE,use restriction note,,Conditions Governing Use
+,userestrict,formattednotewithhead,TRUE,use restriction note,,Conditions Governing Use
 ,,,,,,
 archref,,,,,,
 ,physloc,physloc,FALSE,,,
@@ -72,7 +72,7 @@ c,,,,Component,,
 ,custodhist,formattednotewithhead,TRUE,,,Custodial History
 ,did,did,FALSE,,,
 ,fileplan,formattednotewithhead,TRUE,,,File Plan
-,index,index,FALSE,,,Index
+,index,index,TRUE,,,Index
 ,odd,formattednotewithhead,TRUE,,,General Note
 ,otherfindaid,formattednotewithhead,TRUE,,,Other Finding Aids Note
 ,originalsloc,formattednotewithhead,TRUE,,,Location of Originals
@@ -272,7 +272,7 @@ geogname,,,,,,Places
 head,,,,,,
 ,emph,emph,TRUE,,,
 ,extptr,extptr,TRUE,,,
-,CDATA,,FALSE,,,
+,CDATA,,NA,,,
 ,,,,,,
 index,,,,,,Index
 ,@id,CDATA,NA,,,
@@ -292,13 +292,13 @@ item,,,,,,
 ,name,CDATA,TRUE,,,
 ,persname,persname,TRUE,,,
 ,title,title,TRUE,,,
-,CDATA,,FALSE,,,
+,CDATA,,NA,,,
 ,,,,,,
 langmaterial,,,,,,Language of Materials
 ,@id,CDATA,NA,,,
 ,emph,emph,TRUE,,,
 ,language,language,FALSE,,,
-,CDATA,,FALSE,,,
+,CDATA,,NA,,,
 ,,,,,,
 language,,,,,,
 ,@id,CDATA,NA,,,
