@@ -42,7 +42,7 @@ archdesc,,,,archival description,,
 ,processinfo,formattednotewithhead,TRUE,processing info note,,Processing Information
 ,relatedmaterial,formattednotewithhead,TRUE,,,Related Materials
 ,scopecontent,formattednotewithhead,TRUE,scope and content note,,Scope and Content Note
-,seperatedmaterial,formattednotewithhead,TRUE,,,Separated Materials
+,separatedmaterial,formattednotewithhead,TRUE,,,Separated Materials
 ,userestrict,formattednotewithhead,TRUE,use restriction note,,Conditions Governing Use
 ,,,,,,
 archref,,,,,,
