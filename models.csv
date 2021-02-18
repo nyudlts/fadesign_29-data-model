@@ -35,14 +35,14 @@ archdesc,,,,archival description,,
 ,did,did,FALSE,description identifier,,Call Number
 ,dsc,dsc,FALSE,description of subordinate components,,
 ,odd,formattednotewithhead,TRUE,,,General Note
-,otherfindaid,formattednotewithhead,TRUE,,,Other Finding Aids Available
-,originalsloc,Formattednotewithhead,TRUE,,,Location of Originals
+,originalsloc,formattednotewithhead,TRUE,,,Other Finding Aids Available
+,otherfindaid,formattednotewithhead,TRUE,,,Location of Originals
 ,phystech,formattednotewithhead,TRUE,Physical Characteristics and Technical Requirements,,Physical Characteristics and Technical Requirements
 ,prefercite,formattednotewithhead,TRUE,preferred citation note,,Preferred Citation
 ,processinfo,formattednotewithhead,TRUE,processing info note,,Processing Information
 ,relatedmaterial,formattednotewithhead,TRUE,,,Related Materials
-,separatedmaterial,formattednotewithhead,TRUE,,,Scope and Content Note
-,scopecontent,formattednotewithhead,TRUE,scope and content note,,Separated Materials
+,scopecontent,formattednotewithhead,TRUE,,,Scope and Content Note
+,separatedmaterial,formattednotewithhead,TRUE,scope and content note,,Separated Materials
 ,userestrict,formattednotewithhead,TRUE,use restriction note,,Conditions Governing Use
 ,,,,,,
 archref,,,,,,
@@ -86,8 +86,8 @@ c,,,,Component,,
 ,prefercite,formattednotewithhead,TRUE,,,Preferred Citation
 ,processinfo,formattednotewithhead,TRUE,,,Processing Information
 ,relatedmaterial,formattednotewithhead,TRUE,,,Related Materials
-,seperatedmaterial,formattednotewithhead,TRUE,,,Separated Materials
-,scopecontent,formattednotewithhead,TRUE,,,Scope and Content Note
+,scopecontent,formattednotewithhead,TRUE,,,Separated Materials
+,separatedmaterial,formattednotewithhead,TRUE,,,Scope and Content Note
 ,userestrict,formattednotewithhead,TRUE,,,Conditions Governing Use
 ,,,,,,
 change,,,,,,
