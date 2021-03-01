@@ -18,32 +18,32 @@ addressline,,,TRUE,,,,
 ,extptr,extptr,,TRUE,,,
 ,CDATA,,,NA,,,
 ,,,,,,,
-archdesc,,,FALSE,,,,
+archdesc,,,FALSE,,archival description,,
 ,@level,CDATA,,NA,,,
-,accessrestrict,formattednotewithhead,,TRUE,archival description,,
-,accruals,formattednotewithhead,,TRUE,,,
-,acqinfo,formattednotewithhead,,TRUE,access restriction note,,Conditions Governing Access
-,altformavailable,formattednotewithhead,,TRUE,,,Accruals
-,appraisal,formattednotewithhead,,TRUE,acquisition info note,,Immediate Source of Acquisition
-,arrangement,formattednotewithhead,,TRUE,,,Other Forms Available
-,bibliography,bibliography,,TRUE,,,Appraisal Note
-,bioghist,formattednotewithhead,,TRUE,arrangement note,,Arrangement Note
-,controlaccess,controlaccess,,FALSE,,,Bibliography
-,custodhist,formattednotewithhead,,TRUE,biographical and historical notes,,Biographical/Historical Note
-,did,did,,FALSE,control access terms,,Subjects
-,dsc,dsc,,FALSE,custodial history,,Custodial History
-,odd,formattednotewithhead,,TRUE,description identifier,,Call Number
-,originalsloc,formattednotewithhead,,TRUE,description of subordinate components,,
-,otherfindaid,formattednotewithhead,,TRUE,,,General Note
-,phystech,formattednotewithhead,,TRUE,,,Other Finding Aids Available
-,prefercite,formattednotewithhead,,TRUE,,,Location of Originals
-,processinfo,formattednotewithhead,,TRUE,Physical Characteristics and Technical Requirements,,Physical Characteristics and Technical Requirements
-,relatedmaterial,formattednotewithhead,,TRUE,preferred citation note,,Preferred Citation
-,scopecontent,formattednotewithhead,,TRUE,processing info note,,Processing Information
-,separatedmaterial,formattednotewithhead,,TRUE,,,Related Materials
-,userestrict,formattednotewithhead,,TRUE,,,Scope and Content Note
-,,,,,scope and content note,,Separated Materials
-archref,,,TRUE,,use restriction note,,Conditions Governing Use
+,accessrestrict,formattednotewithhead,,TRUE,access restriction note,,Conditions Governing Access
+,accruals,formattednotewithhead,,TRUE,,,Accruals
+,acqinfo,formattednotewithhead,,TRUE,acquisition info note,,Immediate Source of Acquisition
+,altformavailable,formattednotewithhead,,TRUE,,,Other Forms Available
+,appraisal,formattednotewithhead,,TRUE,,,Appraisal Note
+,arrangement,formattednotewithhead,,TRUE,arrangement note,,Arrangement Note
+,bibliography,bibliography,,TRUE,,,Bibliography
+,bioghist,formattednotewithhead,,TRUE,biographical and historical notes,,Biographical/Historical Note
+,controlaccess,controlaccess,,FALSE,control access terms,,Subjects
+,custodhist,formattednotewithhead,,TRUE,custodial history,,Custodial History
+,did,did,,FALSE,description identifier,,Call Number
+,dsc,dsc,,FALSE,description of subordinate components,,
+,odd,formattednotewithhead,,TRUE,,,General Note
+,originalsloc,formattednotewithhead,,TRUE,,,Location of Originals
+,otherfindaid,formattednotewithhead,,TRUE,,,Other Finding Aids Available
+,phystech,formattednotewithhead,,TRUE,Physical Characteristics and Technical Requirements,,Physical Characteristics and Technical Requirements
+,prefercite,formattednotewithhead,,TRUE,preferred citation note,,Preferred Citation
+,processinfo,formattednotewithhead,,TRUE,processing info note,,Processing Information
+,relatedmaterial,formattednotewithhead,,TRUE,,,Related Materials
+,scopecontent,formattednotewithhead,,TRUE,,,Scope and Content Note
+,separatedmaterial,formattednotewithhead,,TRUE,scope and content note,,Separated Materials
+,userestrict,formattednotewithhead,,TRUE,use restriction note,,Conditions Governing Use
+,,,,,,,
+archref,,,TRUE,,,,
 ,physloc,physloc,,FALSE,,,
 ,CDATA,,,NA,,,
 ,,,,,,,
