@@ -39,8 +39,8 @@ archdesc,,,FALSE,,archival description,,
 ,prefercite,formattednotewithhead,,TRUE,preferred citation note,,Preferred Citation
 ,processinfo,formattednotewithhead,,TRUE,processing info note,,Processing Information
 ,relatedmaterial,formattednotewithhead,,TRUE,,,Related Materials
-,scopecontent,formattednotewithhead,,TRUE,,,Scope and Content Note
-,separatedmaterial,formattednotewithhead,,TRUE,scope and content note,,Separated Materials
+,scopecontent,formattednotewithhead,,TRUE,scope and content note,,Scope and Content Note
+,separatedmaterial,formattednotewithhead,,TRUE,,,Separated Materials
 ,userestrict,formattednotewithhead,,TRUE,use restriction note,,Conditions Governing Use
 ,,,,,,,
 archref,,,TRUE,,,,
