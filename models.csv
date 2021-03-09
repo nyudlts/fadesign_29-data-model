@@ -1,7 +1,7 @@
 tag,child,type,Mixed-content,repeat,translation,note,user-facing-label
 ,,,,,,embedded <emph> tags are converted in mixed content to a specific tag for publication purposes,
-,,,,,,embedded <lb> tags are converted in mixed content to a specific tag for publication purposes,
-,,,,,,,
+,,,,,,embedded <lb> tags are converted to <br> in mixed content for publication purposes.,
+,,,,,,embedded <lb> tags are *not* converted to <br> in <title> or <titleproper> tags.,
 ,,,,,,,
 abstract,,,TRUE,,,,Abstract
 ,@id,CDATA,,NA,,,
