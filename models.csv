@@ -154,7 +154,6 @@ defitem,,,,,,,
 ,label,CDATA,,FALSE,,,
 ,,,,,,,
 did,,,FALSE,,,,
-,@id,CDATA,,NA,,,
 ,abstract,abstract,,TRUE,,,Abstract
 ,container,container,,TRUE,,,
 ,dao,dao,,TRUE,,,
