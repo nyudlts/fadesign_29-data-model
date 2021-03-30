@@ -235,7 +235,6 @@ formattednotewithhead,,,FALSE,,,,
 ,p,p,,TRUE,,,
 ,,,,,,,
 head,,,TRUE,,,,
-,extptr,extptr,,TRUE,,,
 ,CDATA,,,NA,,,
 ,,,,,,,
 index,,,FALSE,,,,Index
