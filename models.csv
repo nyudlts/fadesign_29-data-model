@@ -5,7 +5,6 @@ tag,child,type,Mixed-content,repeat,translation,note,user-facing-label
 ,,,,,,,
 abstract,,,TRUE,,,,Abstract
 ,@id,CDATA,,NA,,,
-,@label,CDATA,,NA,,,
 ,title,title,,TRUE,,,
 ,CDATA,,,NA,,,
 ,,,,,,,
