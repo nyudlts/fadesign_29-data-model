@@ -242,6 +242,7 @@ index,,,FALSE,,,,Index
 ,@id,CDATA,,NA,,,
 ,head,head,,FALSE,,,
 ,indexentry,indexentry,,TRUE,,,
+,p,p,TRUE,TRUE,,,
 ,,,,,,,
 indexentry,,,FALSE,,,,
 ,corpname,accesstermwithrole,,FALSE,,,
