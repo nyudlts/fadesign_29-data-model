@@ -219,6 +219,7 @@ extref,,,TRUE,,,,
 ,@xlink:show,CDATA,,NA,,,
 ,@xlink:title,CDATA,,NA,,,
 ,@xlink:type,CDATA,,NA,,,
+,CDATA,,TRUE,,,,
 ,,,,,,,
 filedesc,,,FALSE,,,,
 ,editionstmt,editionstmt,,FALSE,,,Edition of this Guide
