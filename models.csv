@@ -33,6 +33,7 @@ archdesc,,,FALSE,,archival description,,
 ,custodhist,formattednotewithhead,,TRUE,custodial history,,Custodial History
 ,did,did,,FALSE,description identifier,,Call Number
 ,dsc,dsc,,FALSE,description of subordinate components,,
+,index,index,,FALSE,,,
 ,odd,formattednotewithhead,,TRUE,,,General Note
 ,originalsloc,formattednotewithhead,,TRUE,,,Location of Originals
 ,otherfindaid,formattednotewithhead,,TRUE,,,Other Finding Aids Available
