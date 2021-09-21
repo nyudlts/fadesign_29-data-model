@@ -308,7 +308,7 @@ p,,,TRUE,,,,
 ,date,date,,TRUE,,,
 ,extref,extref,,TRUE,,,
 ,genreform,CDATA,,TRUE,,,
-,geogname,CDATA,,TRUE,,,com
+,geogname,CDATA,,TRUE,,,
 ,list,list,,TRUE,,,
 ,name,accesstermwithrole,,TRUE,,,
 ,num,num,,TRUE,,,
