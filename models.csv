@@ -366,7 +366,7 @@ titleproper,,,TRUE,,,,
 ,CDATA,,,NA,,,
 ,,,,,,,
 titlestmt,,,FALSE,,,,
-,author,author,,FALSE,,,Collection Processed by
+,author,author,,TRUE,,,Collection Processed by
 ,sponsor,CDATA,,FALSE,,,Sponsor Note
 ,subtitle,CDATA,,FALSE,,,
 ,titleproper,titleproper,,FALSE,,,
