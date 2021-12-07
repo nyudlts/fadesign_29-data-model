@@ -253,6 +253,7 @@ indexentry,,,FALSE,,,,
 ,title,title,FALSE,FALSE,,,
 ,,,,,,,
 item,,,TRUE,,,,
+,archref,archref,,TRUE,,,
 ,bibref,bibref,,TRUE,,,
 ,corpname,accesstermwithrole,,TRUE,,,
 ,extref,extref,FALSE,TRUE,,,
@@ -365,7 +366,7 @@ titleproper,,,TRUE,,,,
 ,CDATA,,,NA,,,
 ,,,,,,,
 titlestmt,,,FALSE,,,,
-,author,CDATA,,FALSE,,,Collection Processed by
+,author,author,,FALSE,,,Collection Processed by
 ,sponsor,CDATA,,FALSE,,,Sponsor Note
 ,subtitle,CDATA,,FALSE,,,
 ,titleproper,titleproper,,FALSE,,,
