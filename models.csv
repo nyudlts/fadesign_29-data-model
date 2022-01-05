@@ -342,6 +342,7 @@ physfacet,,,TRUE,,,,Physical Facet
 ,,,,,,,
 physloc,,,TRUE,,,,Location of Materials
 ,@id,CDATA,,NA,,,
+,extref,extref,,TRUE,,,
 ,CDATA,,,NA,,,
 ,,,,,,,
 profiledesc,,,FALSE,,,,
