@@ -60,6 +60,7 @@ nameend
 namest
 nonproport
 normal
+numeration
 or
 otherlevel
 parent
