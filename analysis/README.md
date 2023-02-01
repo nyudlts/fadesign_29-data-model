@@ -29,6 +29,6 @@ $ emacs xml-parsing-attrs-used-in-ead-package.txt
 
 # check if any tags or attributes used in the Golang package are
 # missing from the EAD 2002 list of valid tags and attributes
-$ for f in `cat xml-parsing-tags-used-in-ead-package.txt `; do printf "$f,";grep $f ead-2002-tag-and-attribute-list.txt ||  echo "MISSING"; done | grep MISSING
+$ for f in `cat xml-parsing-tags-and-attributes-used-in-ead-package.txt `; do printf "$f,";grep $f ead-2002-tag-and-attribute-list.txt ||  echo "MISSING"; done | grep MISSING
 altformavailable,MISSING
 ```
