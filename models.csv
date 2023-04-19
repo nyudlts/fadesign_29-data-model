@@ -255,6 +255,7 @@ index,,,FALSE,,,,Index
 indexentry,,,FALSE,,,,
 ,corpname,accesstermwithrole,,FALSE,,,
 ,name,accesstermwithrole,,FALSE,,,
+,ref,CDATA,,FALSE,,,
 ,subject,accessterm,,FALSE,,,
 ,title,title,FALSE,FALSE,,,
 ,,,,,,,
