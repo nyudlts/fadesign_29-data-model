@@ -1,7 +1,9 @@
 ## CHANGELOG
 
-#### v0.9.0
+#### v0.10.0
+	* added `ref` to `indexentry` type
 
+#### v0.9.0
 	* changed element and attribute names to match [EAD 2002 schema](https://www.loc.gov/ead/ead.xsd)
 	  * change element   `altformavailable` to `altformavail`
   	  * change attribute `xlink:type` to `type`
